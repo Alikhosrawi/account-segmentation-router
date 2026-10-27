@@ -1,0 +1,25 @@
+{
+ "domain": "elevenlabs.io",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:elevenlabs:24710bb7-62de-48d4-82c5-748c0d8aade2",
+  "ashby:elevenlabs:7209ce9f-3c69-4dbb-adbb-6c6c068ebad0",
+  "ashby:elevenlabs:7d29f7f7-158a-42e0-a6be-0ceba630863c"
+ ],
+ "usage": {
+  "input_tokens": 2943,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 362,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** \n- No evidence of finance_complexity: The postings mention ElevenLabs serves customers across regions, but this describes their *customer base*, not how ElevenLabs itself operates internally (multiple legal entities, cost centres, growing finance team).\n- No evidence of distributed_spend: No mention of employees spending company money, field teams, multiple offices with spend, or travel patterns.\n- No evidence of finance_tooling: No ERP, accounting software, or spend-management tools named.\n\n**INTENT (0/3):**\n- No finance_hiring: The three roles are GTM Enablement, Sales Lead (Enterprise), and Account Manager—all revenue/GTM roles, not finance, accounting, controlling, or procurement.\n- No gtm_scaleup: While these are sales/GTM roles, the postings do not state that the sales team or function itself is new, being built, or being expanded. These appear to be individual contributor or backfill roles in an already-operating GTM function.\n- No new_market: No NAMED new country or region entry is mentioned.\n- No tool_adoption: No migration to or rollout of a NAMED finance or GTM tool is described.\n\nThe postings are generic company background and benefits boilerplate with no explicit signals of buying intent or operational complexity relevant to a B2B spend-management product."
+}

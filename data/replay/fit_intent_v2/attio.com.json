@@ -1,0 +1,25 @@
+{
+ "domain": "attio.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2",
+ "posting_ids": [
+  "ashby:attio:640e15b6-8d1a-48e3-8180-00c64574a858",
+  "ashby:attio:acbedaad-aa1e-4c9f-bce2-cca372cd2751",
+  "ashby:attio:eef50b66-c092-4018-bff5-08b81889a4f4"
+ ],
+ "usage": {
+  "input_tokens": 2497,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 155,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:attio:640e15b6-8d1a-48e3-8180-00c64574a858\",\n      \"evidence_quote\": \"Sales Development Representatives generate top of funnel pipeline at Attio, running outbound campaigns\",\n      \"confidence\": 0.8\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2\"\n}\n```"
+}

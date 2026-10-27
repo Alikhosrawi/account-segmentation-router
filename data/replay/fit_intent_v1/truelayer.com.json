@@ -1,0 +1,25 @@
+{
+ "domain": "truelayer.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:truelayer:8145aae1-bbae-414d-865c-8ab5b588f398",
+  "ashby:truelayer:b68aa6ea-def9-47a8-9fc9-ad60fe3d87cd",
+  "ashby:truelayer:07666a69-21b1-4d8a-8174-6de2e9f12b9a"
+ ],
+ "usage": {
+  "input_tokens": 2338,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 580,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:truelayer:b68aa6ea-def9-47a8-9fc9-ad60fe3d87cd\",\n      \"evidence_quote\": \"TrueLayer (Ireland) Limited (TIL), reporting on these matters to the TIL Board whilst reporting to the Group VP of Finance\",\n      \"confidence\": 0.6\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:truelayer:8145aae1-bbae-414d-865c-8ab5b588f398\",\n      \"evidence_quote\": \"support day-to-day finance operations for the Italian legal entity, including invoice checks, coding and chasing approval\",\n      \"confidence\": 0.6\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"distributed_spend\",\n      \"posting_id\": \"ashby:truelayer:8145aae1-bbae-414d-865c-8ab5b588f398\",\n      \"evidence_quote\": \"Review and approve employee expense claims and travel requests that are in line with the TrueLayer Business Travel & Expense Policy\",\n      \"confidence\": 0.7\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:truelayer:8145aae1-bbae-414d-865c-8ab5b588f398\",\n      \"evidence_quote\": \"Finance Assistant (Categorie Protette L. 68/99)\",\n      \"confidence\": 0.5\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:truelayer:b68aa6ea-def9-47a8-9fc9-ad60fe3d87cd\",\n      \"evidence_quote\": \"Head of Finance (PCF 11) & Head of Safeguarding (PCF 56)\",\n      \"confidence\": 0.7\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "parloa.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:parloa:44b5f142-a540-43ca-8543-95cd52199195",
+  "ashby:parloa:98176241-006f-43d1-a418-10100d0774fd",
+  "ashby:parloa:63b581da-470e-4b23-8ed4-b66e7d147780"
+ ],
+ "usage": {
+  "input_tokens": 2281,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 154,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"new_market\",\n      \"posting_id\": \"ashby:parloa:98176241-006f-43d1-a418-10100d0774fd\",\n      \"evidence_quote\": \"build and scale the partner ecosystem that establishes Parloa as the leading agentic AI solution across Eastern European markets\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

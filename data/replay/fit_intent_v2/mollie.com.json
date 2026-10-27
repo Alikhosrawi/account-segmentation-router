@@ -1,0 +1,25 @@
+{
+ "domain": "mollie.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2",
+ "posting_ids": [
+  "ashby:mollie:304404f1-c1c6-4e91-bfc6-16affeeeeeda",
+  "ashby:mollie:e9aa62bf-2c18-44c4-beb0-6a8e6ea257db",
+  "ashby:mollie:4f0228f0-15c4-4b11-9d8a-984d0c306f29"
+ ],
+ "usage": {
+  "input_tokens": 2454,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 258,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:mollie:e9aa62bf-2c18-44c4-beb0-6a8e6ea257db\",\n      \"evidence_quote\": \"900+ Mollies across 12+ locations\",\n      \"confidence\": 0.6\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"new_market\",\n      \"posting_id\": \"ashby:mollie:4f0228f0-15c4-4b11-9d8a-984d0c306f29\",\n      \"evidence_quote\": \"Your mission is to identify, forge, and scale the strategic partnerships that will become a primary engine for our growth in our local markets\",\n      \"confidence\": 0.5\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2\"\n}\n```"
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "forto.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:forto:8847554b-267e-4c22-881e-fe0638b02ad3",
+  "ashby:forto:51cf13d6-98f8-450c-a1a7-1083b15b3e00",
+  "ashby:forto:9daa12be-1543-468a-83f7-d3876cb52971"
+ ],
+ "usage": {
+  "input_tokens": 2778,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 466,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):**\n- **finance_complexity**: No evidence. The postings mention \"9 core geographies\" in macro data tracking, but this describes the Market Intelligence Analyst's *external* reporting scope (tracking global trade lanes), not Forto's internal operational structure. No mention of Forto's own legal entities, internal cost centres, or multi-currency operations.\n- **distributed_spend**: No evidence. The SDR role is location-specific (Poland). The Operations Specialist is Hamburg-based. No mention of field teams, multiple offices with distributed spending, or frequent travel/events requiring spend management.\n- **finance_tooling**: No evidence. Salesforce is mentioned as a CRM tool (\"Maintain CRM hygiene: Accurately record all prospecting activities... in our CRM (Salesforce)\"), but CRM is a sales tool, not a finance/accounting/spend-management tool (ERP, accounting software, expense management, etc.).\n\n**INTENT (0/3):**\n- **finance_hiring**: No evidence. The Market Intelligence Analyst is a commercial/pricing role. The SDR is a sales development role. The Operations Specialist is a logistics operations role. None are finance, accounting, controlling, procurement, or payroll positions.\n- **gtm_scaleup**: No evidence. While an SDR role exists, the posting does not state that the sales/revenue/RevOps *team or function* is new or being built/expanded. It is a single backfill role (\"the sales pipeline starts with you\").\n- **new_market**: No evidence. Poland and Germany are existing locations; no NAMED new country/region entry is stated.\n- **tool_adoption**: No evidence. Salesforce is listed as a required tool for the SDR role, but this is required experience/current use, not a migration or rollout initiative."
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "causal.app",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:causal:12ad7c04-13ba-4c39-8dd3-41642156951d",
+  "ashby:causal:4e621c74-66c3-43a7-9720-be794095fc5f",
+  "ashby:causal:84df5ed7-325a-4e75-bd20-db6e2f4f7e07"
+ ],
+ "usage": {
+  "input_tokens": 2122,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 268,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0):** Causal is an AI/physics research company building foundation models for weather prediction and physical systems. The postings show no explicit signals of finance complexity (multiple entities, currencies, cost centers, growing finance teams), distributed spend (field teams, multiple offices, travel), or named finance tooling usage. The company is early-stage and focused on research/deployment, not a typical B2B spend-management buyer profile.\n\n**INTENT (0):** \n- No finance hiring signals (recruiting is for AI researchers, engineers, and deployment staff—not finance/accounting/procurement roles)\n- No GTM scaleup signals (deployment strategy is about customer success with their AI product, not building sales/RevOps teams)\n- No new market entry signals (locations mentioned are San Francisco and Singapore, but no named market expansion)\n- No tool adoption signals (no named finance or GTM tools mentioned)\n\nThe postings are not relevant to B2B spend-management product sales."
+}

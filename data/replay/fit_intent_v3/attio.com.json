@@ -1,0 +1,25 @@
+{
+ "domain": "attio.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:attio:640e15b6-8d1a-48e3-8180-00c64574a858",
+  "ashby:attio:acbedaad-aa1e-4c9f-bce2-cca372cd2751",
+  "ashby:attio:eef50b66-c092-4018-bff5-08b81889a4f4"
+ ],
+ "usage": {
+  "input_tokens": 2860,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 374,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** \n- No finance_complexity: The postings describe Attio's product (a CRM) and its go-to-market operations, not the company's own internal finance structure, legal entities, currencies, countries, or finance team growth.\n- No distributed_spend: No evidence of many employees spending company money, field teams, multiple offices, or frequent travel.\n- No finance_tooling: No mention of ERP, accounting, or spend-management tools Attio uses internally.\n\n**INTENT (0/3):**\n- No finance_hiring: The three roles (SDR, AE, Solutions Engineer) are all GTM/sales/customer success roles, not finance, accounting, controlling, procurement, or payroll positions.\n- No gtm_scaleup: While Attio is hiring sales roles, the postings do not state that the sales/revenue/RevOps team or function itself is new, being built, or being expanded. These are individual contributor and specialist roles, not evidence of team-building or function expansion.\n- No new_market: No NAMED new country or region entry.\n- No tool_adoption: No mention of migrating to or rolling out a named finance or GTM tool.\n\nThe postings are generic growth/hiring content and mission statements about Attio's product and culture. They contain no explicit signals of internal finance complexity, distributed spend, finance tooling use, or current buying intent."
+}

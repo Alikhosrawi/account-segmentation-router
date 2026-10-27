@@ -1,0 +1,27 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# Private job-ad snapshot (third-party text; keep outside the repo)
+data/snapshot/
+.segr_private/
+
+# HubSpot live sync artefacts (portal IDs, owner IDs, raw API payloads)
+out/hubspot_ids.json
+out/v3sync/
+out/**/recorded/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

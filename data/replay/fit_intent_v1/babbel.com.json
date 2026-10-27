@@ -1,0 +1,25 @@
+{
+ "domain": "babbel.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:babbel:dd520fb8-ede6-4d9f-9423-111e2eb801ac",
+  "ashby:babbel:263d08cf-21aa-4a1e-84fd-3dc1f6b819bd",
+  "ashby:babbel:91779c86-7101-4dae-a22b-70ed7970c47a"
+ ],
+ "usage": {
+  "input_tokens": 2287,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 286,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0):** Babbel is a B2C language learning subscription company. None of the postings indicate:\n- Multiple legal entities, currencies, or countries in their operational structure\n- Distributed spend across many employees (these are specialized marketing/engineering roles, not field teams or multi-office operations)\n- Use of any finance/spend-management tools (ERP, accounting software, expense management platforms)\n\n**INTENT (0):** No signals of buying intent:\n- No finance/controlling/accounting/procurement hiring mentioned\n- The Growth Lead role is GTM expansion (sales/revenue), but it's for a B2C subscription business optimizing their own paid marketing channels, not building a new GTM function that would need spend management tools\n- No mention of entering new markets\n- No tool adoption or migration mentioned\n\nThe postings describe a B2C SaaS company optimizing marketing performance and building AI content systems—not a company with the finance complexity, distributed spend patterns, or tool adoption needs that would make them a prospect for B2B spend-management software."
+}

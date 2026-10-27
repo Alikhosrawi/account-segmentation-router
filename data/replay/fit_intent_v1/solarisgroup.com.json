@@ -1,0 +1,25 @@
+{
+ "domain": "solarisgroup.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "greenhouse:solarisbank:8869927002",
+  "greenhouse:solarisbank:8874221002",
+  "greenhouse:solarisbank:8829828002"
+ ],
+ "usage": {
+  "input_tokens": 2090,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 285,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0):** Solaris is a B2B2C embedded finance platform and licensed bank, not an SMB or mid-market company that would be a *buyer* of spend-management solutions. The postings show no evidence of:\n- Multiple legal entities, currencies, or cost centres requiring spend management\n- Distributed employee spending patterns that would need company cards/expense management\n- Use of ERP/accounting/spend tools that would indicate they are a buyer segment\n\n**INTENT (0):** While the postings show hiring activity, none of the explicit intent signals are present:\n- The Talent Acquisition role is a 6-month contract backfill, not finance team expansion\n- The KYB Operations role is compliance/operations focused, not finance/controlling/procurement expansion\n- The Product Marketing role is GTM-adjacent but for their own product (credit cards), not building a new sales/RevOps function for their core business\n- No named tool migrations or new market entries are mentioned\n- No finance, controlling, accounting, or procurement team building signals"
+}

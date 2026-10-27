@@ -1,0 +1,25 @@
+{
+ "domain": "agicap.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2",
+ "posting_ids": [
+  "lever:agicap:7aa577ff-1c76-4720-b945-35135f11e826",
+  "lever:agicap:68d35e98-a4d9-4dfd-8abc-5dd134f2605d",
+  "lever:agicap:1c9d31c1-ac89-4e01-aaeb-9952551fc6b0"
+ ],
+ "usage": {
+  "input_tokens": 3167,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 484,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 2,\n  \"intent\": 2,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"lever:agicap:7aa577ff-1c76-4720-b945-35135f11e826\",\n      \"evidence_quote\": \"des entreprises de plus de 50 M€ de chiffre d'affaires, souvent des groupes multi-entités\",\n      \"confidence\": 0.95\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"distributed_spend\",\n      \"posting_id\": \"lever:agicap:7aa577ff-1c76-4720-b945-35135f11e826\",\n      \"evidence_quote\": \"Vous travaillez avec des DAF, directeur·rices financier·ères, trésorier·ères, responsables comptables\",\n      \"confidence\": 0.7\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"lever:agicap:68d35e98-a4d9-4dfd-8abc-5dd134f2605d\",\n      \"evidence_quote\": \"Dann werde Teil unseres DACH-Teams und gestalte als Treasury Implementation Consultant\",\n      \"confidence\": 0.9\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"new_market\",\n      \"posting_id\": \"lever:agicap:68d35e98-a4d9-4dfd-8abc-5dd134f2605d\",\n      \"evidence_quote\": \"Dann werde Teil unseres DACH-Teams und gestalte als Treasury Implementation Consultant\",\n      \"confidence\": 0.85\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2\"\n}\n```"
+}

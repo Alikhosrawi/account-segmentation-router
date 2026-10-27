@@ -1,0 +1,25 @@
+{
+ "domain": "buena.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:buena:bc48dcd4-0f95-49f7-9964-476d04036b70",
+  "ashby:buena:e823bb7b-ddc3-4ef0-8031-0d1f2628f8d5",
+  "ashby:buena:b5f2fd34-f84f-48ba-9450-1ec75da98dfe"
+ ],
+ "usage": {
+  "input_tokens": 3822,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 498,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 2,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:buena:b5f2fd34-f84f-48ba-9450-1ec75da98dfe\",\n      \"evidence_quote\": \"Du sorgst dafür, dass die BWAs unserer Holding und Tochtergesellschaften pünktlich und sauber vorliegen\",\n      \"confidence\": 0.75\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_tooling\",\n      \"posting_id\": \"ashby:buena:b5f2fd34-f84f-48ba-9450-1ec75da98dfe\",\n      \"evidence_quote\": \"Du führst einen Großteil der freigegebenen Zahlungen selbst in Agicap aus\",\n      \"confidence\": 0.9\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_tooling\",\n      \"posting_id\": \"ashby:buena:e823bb7b-ddc3-4ef0-8031-0d1f2628f8d5\",\n      \"evidence_quote\": \"Du verantwortest Personio und unsere Mitarbeiterdaten. Personio läuft bereits deutschlandweit.\",\n      \"confidence\": 0.85\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:buena:b5f2fd34-f84f-48ba-9450-1ec75da98dfe\",\n      \"evidence_quote\": \"Als Werkstudent:in im Finance-Team sorgst du dafür\",\n      \"confidence\": 0.7\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```"
+}

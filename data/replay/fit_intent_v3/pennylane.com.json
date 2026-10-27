@@ -1,0 +1,25 @@
+{
+ "domain": "pennylane.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:pennylane:c32b07bf-96ff-42b5-87e0-9b210dd705ab",
+  "ashby:pennylane:dffac3f5-6a76-453d-8731-ca1e6997901f",
+  "ashby:pennylane:04ebbd2e-315f-4c40-b416-0d53a799e401"
+ ],
+ "usage": {
+  "input_tokens": 4125,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 155,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:pennylane:04ebbd2e-315f-4c40-b416-0d53a799e401\",\n      \"evidence_quote\": \"Pennylane is building Pennylane Financial Services (PFS), a newly created regulated subsidiary\",\n      \"confidence\": 0.65\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```"
+}

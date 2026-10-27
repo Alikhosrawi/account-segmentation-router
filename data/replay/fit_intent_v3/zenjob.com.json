@@ -1,0 +1,25 @@
+{
+ "domain": "zenjob.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:zenjob:244cb88a-6cef-4729-a12f-a104642ff3ec",
+  "ashby:zenjob:c7b9e785-792f-4fd0-a8f1-af3f53688502",
+  "ashby:zenjob:cea79f7b-5573-40e1-a40a-b414cbfa54b3"
+ ],
+ "usage": {
+  "input_tokens": 3570,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 387,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** \n- No finance_complexity: The postings mention Zenjob operates in \"all major German cities\" but this is boilerplate location language, not evidence of multiple legal entities, currencies, or countries in their own operations.\n- No distributed_spend: The postings describe Zenjob's *product* (connecting companies with workers) and internal operations roles, but do not describe Zenjob's own employees spending company money across multiple locations or teams.\n- No finance_tooling: The postings mention tools Zenjob uses (AirCall, Google Suite, Slack, Okta, Kandji, Freshservice) but none are finance/accounting/ERP tools (e.g., NetSuite, SAP, DATEV, Xero, Pleo, Spendesk).\n\n**INTENT (0/3):**\n- No finance_hiring: The postings are for Account Manager (sales), Staffing Operations (operations), and IT Support (IT). None are finance, accounting, controlling, procurement, or payroll roles.\n- No gtm_scaleup: While the Account Manager role involves sales, the posting does not state that the sales team or function itself is new or being built/expanded. It is a standard account management hire.\n- No new_market: No NAMED new country or region entry is mentioned.\n- No tool_adoption: No migration to or rollout of a NAMED finance or GTM tool is described."
+}

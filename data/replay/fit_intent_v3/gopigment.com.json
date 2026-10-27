@@ -1,0 +1,25 @@
+{
+ "domain": "gopigment.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "lever:pigment:189231ae-80b9-419b-a61f-75b90e500aef",
+  "lever:pigment:3e985eb9-fb58-40e8-a1c8-c1c1f2a625ae",
+  "lever:pigment:6e871269-5b29-47ae-a1a4-2de8523af2de"
+ ],
+ "usage": {
+  "input_tokens": 2827,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 442,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):**\n- **finance_complexity**: The postings describe Pigment's own product (business planning, EPM platform for finance teams) and its customer base (Unilever, Uber, Siemens). They do not describe Pigment's own internal finance structure, legal entities, currencies, cost centres, or growing finance team. The office list (Paris, London, New York, Toronto, San Francisco, Austin) is boilerplate and does not constitute finance_complexity.\n- **distributed_spend**: No evidence of Pigment's own employees spending company money, field teams, multiple offices with spend, or frequent travel.\n- **finance_tooling**: No mention of tools Pigment uses internally for finance/accounting/spend management (ERP, accounting software, expense tools, etc.).\n\n**INTENT (0/3):**\n- **finance_hiring**: The postings are for Marketing Operations Manager and EPM Services Sales Lead roles—not finance, accounting, controlling, procurement, or payroll positions.\n- **gtm_scaleup**: While the postings mention \"scaling rapidly\" and building demand generation infrastructure, they do not explicitly state that the sales/revenue/RevOps team itself is new or being expanded. These are individual contributor and specialist roles, not evidence of building or doubling a sales team function.\n- **new_market**: No mention of entering a named new country or region.\n- **tool_adoption**: No mention of migrating to or rolling out a named finance or GTM tool.\n\nPigment is a B2B SaaS vendor (not a buyer of spend-management solutions) and these postings provide no explicit signals of buying intent or internal complexity that would make them a prospect for a B2B spend-management platform."
+}

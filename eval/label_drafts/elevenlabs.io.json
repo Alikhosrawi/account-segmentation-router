@@ -1,0 +1,19 @@
+{
+ "domain": "elevenlabs.io",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2203,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 68,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 1, \"intent\": 1, \"reason\": \"Global team with European presence and UK/Ireland sales role suggests multi-country spend, but no finance team, ERP tools, or controlling function mentioned.\", \"key_quote\": \"Account Manager - UK/I\"}\n```"
+}

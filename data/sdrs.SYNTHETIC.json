@@ -1,0 +1,95 @@
+{
+ "_note": "Fictional SDR roster for demo routing. Not real people.",
+ "sdrs": [
+  {
+   "sdr_id": "sdr_01",
+   "name": "SDR A (DACH)",
+   "territories": [
+    "DACH"
+   ],
+   "segments": [
+    "SMB",
+    "Mid-Market"
+   ],
+   "capacity": 8
+  },
+  {
+   "sdr_id": "sdr_02",
+   "name": "SDR B (DACH)",
+   "territories": [
+    "DACH"
+   ],
+   "segments": [
+    "SMB",
+    "Mid-Market"
+   ],
+   "capacity": 8
+  },
+  {
+   "sdr_id": "sdr_03",
+   "name": "SDR C (France/Southern)",
+   "territories": [
+    "France",
+    "Southern"
+   ],
+   "segments": [
+    "SMB",
+    "Mid-Market"
+   ],
+   "capacity": 8
+  },
+  {
+   "sdr_id": "sdr_04",
+   "name": "SDR D (UKI)",
+   "territories": [
+    "UKI"
+   ],
+   "segments": [
+    "SMB",
+    "Mid-Market"
+   ],
+   "capacity": 8
+  },
+  {
+   "sdr_id": "sdr_05",
+   "name": "SDR E (Nordics/Benelux/CEE)",
+   "territories": [
+    "Nordics",
+    "Benelux",
+    "CEE"
+   ],
+   "segments": [
+    "SMB",
+    "Mid-Market"
+   ],
+   "capacity": 6
+  },
+  {
+   "sdr_id": "sdr_ent_dach",
+   "name": "Ent SDR (DACH)",
+   "territories": [
+    "DACH"
+   ],
+   "segments": [
+    "Enterprise"
+   ],
+   "capacity": 10
+  },
+  {
+   "sdr_id": "sdr_ent_west",
+   "name": "Ent SDR (rest of Europe)",
+   "territories": [
+    "UKI",
+    "France",
+    "Benelux",
+    "Southern",
+    "Nordics",
+    "CEE"
+   ],
+   "segments": [
+    "Enterprise"
+   ],
+   "capacity": 10
+  }
+ ]
+}

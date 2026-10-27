@@ -1,0 +1,19 @@
+{
+ "domain": "lovable.dev",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2205,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 77,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 2, \"intent\": 2, \"reason\": \"US, Sweden, UK entities with multi-currency consolidation explicitly stated, and two senior finance roles being built from scratch now.\", \"key_quote\": \"You'll own our month-end close and consolidation process across the US, Sweden and the UK\"}\n```"
+}

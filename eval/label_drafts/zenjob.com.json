@@ -1,0 +1,19 @@
+{
+ "domain": "zenjob.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2830,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 73,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 1, \"intent\": 0, \"reason\": \"Germany-only staffing platform, ~200 employees, no multi-country/currency or finance team signals visible.\", \"key_quote\": \"Around 200 colleagues depend on their laptops, accounts and tools working every day.\"}\n```"
+}

@@ -1,0 +1,24 @@
+{
+ "domain": "billie.io",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:billie:02abea78-d78f-4a3f-b1d2-ce38f8714cb8",
+  "ashby:billie:fcc221b2-5ff3-47e0-a666-48b539b5543b"
+ ],
+ "usage": {
+  "input_tokens": 1645,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 248,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:billie:fcc221b2-5ff3-47e0-a666-48b539b5543b\",\n      \"evidence_quote\": \"Develop and maintain a comprehensive financial crime and regulatory risk management framework\",\n      \"confidence\": 0.4\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:billie:fcc221b2-5ff3-47e0-a666-48b539b5543b\",\n      \"evidence_quote\": \"Compliance Expert to join our Compliance team, reporting to our Senior Director of Compliance\",\n      \"confidence\": 0.5\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

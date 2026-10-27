@@ -1,0 +1,25 @@
+{
+ "domain": "upvest.co",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2",
+ "posting_ids": [
+  "ashby:upvest:aab1da57-e73c-4989-b0d1-f70d24b09813",
+  "ashby:upvest:fe82ad57-73bd-4359-b4e3-904cff54aaa3",
+  "ashby:upvest:5c86b1fd-d477-4b08-b41b-80a46654ea43"
+ ],
+ "usage": {
+  "input_tokens": 2645,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 164,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:upvest:5c86b1fd-d477-4b08-b41b-80a46654ea43\",\n      \"evidence_quote\": \"The Growth team at Upvest is driving our go-to-market activities, spanning across Marketing, Sales and Customer Success.\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2\"\n}\n```"
+}

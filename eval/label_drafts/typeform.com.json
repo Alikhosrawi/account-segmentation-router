@@ -1,0 +1,19 @@
+{
+ "domain": "typeform.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2006,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 85,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 1, \"intent\": 1, \"reason\": \"Scaling SaaS with European presence (London hire) and growing sales team, but no finance team, ERP tools, or multi-entity/currency signals.\", \"key_quote\": \"We're excited to hire someone based in London, where we're looking to grow our sales presence.\"}\n```"
+}

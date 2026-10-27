@@ -1,0 +1,25 @@
+{
+ "domain": "deepl.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:deepl:a269d905-ae6a-4a20-8ed6-42904aee139f",
+  "ashby:deepl:bd5ea968-a2bc-4951-bf29-02dd324169c6",
+  "ashby:deepl:5d5ed7b1-8a46-4123-8ad2-0b612b13355c"
+ ],
+ "usage": {
+  "input_tokens": 2911,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 339,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 2,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:deepl:a269d905-ae6a-4a20-8ed6-42904aee139f\",\n      \"evidence_quote\": \"tackling complex enterprise contracts and massive transaction data\",\n      \"confidence\": 0.65\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:deepl:a269d905-ae6a-4a20-8ed6-42904aee139f\",\n      \"evidence_quote\": \"seeking a Senior Revenue Accountant to step into our revenue finance team\",\n      \"confidence\": 0.95\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:deepl:bd5ea968-a2bc-4951-bf29-02dd324169c6\",\n      \"evidence_quote\": \"to build and develop high-performing sales teams that embody DeepL's innovative spirit\",\n      \"confidence\": 0.75\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```"
+}

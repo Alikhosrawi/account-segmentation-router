@@ -1,0 +1,25 @@
+{
+ "domain": "planhat.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:planhat:18ca4eda-089e-4940-ad2a-bc990676cc28",
+  "ashby:planhat:325c4313-fbb2-41ed-87a3-2e5b80ec3405",
+  "ashby:planhat:43f783cf-b24c-40f5-a9f7-6fc8746710d8"
+ ],
+ "usage": {
+  "input_tokens": 2866,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 700,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"distributed_spend\",\n      \"posting_id\": \"ashby:planhat:18ca4eda-089e-4940-ad2a-bc990676cc28\",\n      \"evidence_quote\": \"work with some of the biggest and most forward-thinking technology and AI companies in the world\",\n      \"confidence\": 0.5\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:planhat:325c4313-fbb2-41ed-87a3-2e5b80ec3405\",\n      \"evidence_quote\": \"build Planhat's earned-media and influencer engine from the ground up\",\n      \"confidence\": 0.75\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (1):**\n- **distributed_spend (0.5 confidence)**: The Enterprise Account Manager posting mentions Planhat works with \"some of the biggest and most forward-thinking technology and AI companies in the world\" and that customers \"run their commercial operations on Planhat.\" However, this describes Planhat's *customers* and *what they sell*, not how Planhat itself operates internally. This is boilerplate about their product/market, not evidence of Planhat's own finance complexity or distributed spend. Confidence is below threshold for inclusion, but included at 0.5 as marginal.\n- **finance_complexity**: No evidence of multiple legal entities, currencies, countries, or growing finance team at Planhat itself.\n- **finance_tooling**: No named tools mentioned.\n\n**INTENT (1):**\n- **finance_hiring**: The Deployment Strategy Operations Lead role (posting 3) is operations-focused but not finance/accounting/controlling/procurement hiring. No finance hiring found.\n- **gtm_scaleup (0.75 confidence)**: The PR Influencer Marketing Lead posting explicitly states \"build Planhat's earned-media and influencer engine from the ground up\" — this is building a new marketing/GTM function from scratch. However, this is a *marketing* function, not sales/revenue/RevOps team expansion. Per rules, gtm_scaleup requires sales/revenue/RevOps team building. This does not qualify as gtm_scaleup; it's a marketing function. Confidence lowered to below threshold.\n- **new_market**: No NAMED new country/region entry mentioned.\n- **tool_adoption**: No named tool migration or rollout.\n\n**Revised assessment**: No clear signals meet confidence threshold. Fit and intent both score 0.\n\n```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}"
+}

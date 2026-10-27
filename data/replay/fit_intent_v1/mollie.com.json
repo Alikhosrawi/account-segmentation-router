@@ -1,0 +1,25 @@
+{
+ "domain": "mollie.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:mollie:304404f1-c1c6-4e91-bfc6-16affeeeeeda",
+  "ashby:mollie:e9aa62bf-2c18-44c4-beb0-6a8e6ea257db",
+  "ashby:mollie:4f0228f0-15c4-4b11-9d8a-984d0c306f29"
+ ],
+ "usage": {
+  "input_tokens": 2235,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 355,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"distributed_spend\",\n      \"posting_id\": \"ashby:mollie:304404f1-c1c6-4e91-bfc6-16affeeeeeda\",\n      \"evidence_quote\": \"more than 250,000 companies use Mollie to get paid, manage money and grow\",\n      \"confidence\": 0.4\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:mollie:304404f1-c1c6-4e91-bfc6-16affeeeeeda\",\n      \"evidence_quote\": \"leading go-to-market for Mollie's online payments product space\",\n      \"confidence\": 0.5\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"new_market\",\n      \"posting_id\": \"ashby:mollie:4f0228f0-15c4-4b11-9d8a-984d0c306f29\",\n      \"evidence_quote\": \"Partner Manager Digital Agencies - Iberia, Location: Lisbon Portugal\",\n      \"confidence\": 0.6\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "alan.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:alan:61557c20-7f5e-40b9-8cc6-b3afb9eec5a0",
+  "ashby:alan:8538c941-d5da-4073-943d-03056d87f9c7",
+  "ashby:alan:8983a13d-9896-4302-b274-cb423fdd7ce4"
+ ],
+ "usage": {
+  "input_tokens": 2979,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 253,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:alan:61557c20-7f5e-40b9-8cc6-b3afb9eec5a0\",\n      \"evidence_quote\": \"we're hiring across France, Spain, Belgium, and Canada. And beyond.\",\n      \"confidence\": 0.75\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:alan:61557c20-7f5e-40b9-8cc6-b3afb9eec5a0\",\n      \"evidence_quote\": \"We are growing our Sales team and hiring for an Account Executive\",\n      \"confidence\": 0.72\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```"
+}

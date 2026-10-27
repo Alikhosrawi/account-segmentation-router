@@ -1,0 +1,24 @@
+{
+ "domain": "payrails.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:payrails:7a5bb459-dc27-4174-bc11-c173fd3ec91f",
+  "ashby:payrails:248cf96d-7267-425d-b4f3-5953f0a4c755"
+ ],
+ "usage": {
+  "input_tokens": 2205,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 340,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** \n- No evidence of finance_complexity: The postings describe Payrails' *own product* (payment software for enterprises), not the company's internal financial structure, legal entities, currencies, cost centres, or finance team growth.\n- No evidence of distributed_spend: No mention of employees spending company money, field teams, multiple offices, or travel.\n- No evidence of finance_tooling: No named ERP, accounting, or spend-management tools that Payrails uses internally.\n\n**INTENT (0/3):**\n- No finance_hiring: Both roles are data/analytics engineering positions, not finance, accounting, controlling, procurement, or payroll roles.\n- No gtm_scaleup: No mention of building or expanding a sales, revenue, or RevOps team.\n- No new_market: No named new country or region entry (Cairo is a location for the role, not a market expansion signal).\n- No tool_adoption: No mention of migrating to or rolling out a named finance or GTM tool.\n\nThe postings are generic company mission statements and role descriptions for a fintech company's own product and engineering team, with no signals about the company's internal spend management, finance operations, or hiring needs relevant to B2B spend-management buyers."
+}

@@ -1,0 +1,19 @@
+{
+ "domain": "matillion.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2032,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 80,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 1, \"intent\": 0, \"reason\": \"UK/US/India presence and Finance mentions noted, but no explicit finance team hiring, ERP tools, or multi-currency spend signals.\", \"key_quote\": \"We started in Manchester and now we're global - with teams across the UK, US and India.\"}\n```"
+}

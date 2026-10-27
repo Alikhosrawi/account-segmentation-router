@@ -1,0 +1,25 @@
+{
+ "domain": "langdock.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:langdock:f572fdf3-3b46-4f78-876f-9767a6f97538",
+  "ashby:langdock:e27922a1-5484-410e-ada9-1d4f744b4ad6",
+  "ashby:langdock:944946c0-b6a3-4506-a4b7-3ce8c8778ea3"
+ ],
+ "usage": {
+  "input_tokens": 2845,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 414,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):**\n- **finance_complexity**: No evidence. The postings describe Langdock's product (an AI platform) and its customers, not Langdock's own internal finance structure, legal entities, currencies, cost centres, or finance team growth.\n- **distributed_spend**: No evidence. No mention of Langdock's own employees spending company money, field teams, multiple offices, or travel.\n- **finance_tooling**: No evidence. No mention of any ERP, accounting, or spend-management tools Langdock uses internally.\n\n**INTENT (0/3):**\n- **finance_hiring**: No evidence. The three roles are: Enterprise Technical Account Executive (sales), Forward Deployed Engineer (customer success/implementation), and AI Associate (support/training program). None are finance, accounting, controlling, procurement, or payroll roles.\n- **gtm_scaleup**: No evidence. While the first posting is a sales role, there is no explicit statement that the sales team or function itself is new, being built, or being expanded. It describes a single role (\"You will take Langdock from first conversation to signed contract\") without indicating team-level growth.\n- **new_market**: No evidence. No mention of entering a named new country or region.\n- **tool_adoption**: No evidence. No mention of migrating to or rolling out a named finance or GTM tool.\n\nLangdock is a B2B SaaS company selling an AI platform, not a buyer of spend-management solutions. The postings describe its product and customer-facing roles, not internal finance operations or buying signals."
+}

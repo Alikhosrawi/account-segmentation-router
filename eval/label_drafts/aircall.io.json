@@ -1,0 +1,19 @@
+{
+ "domain": "aircall.io",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2088,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 94,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 2, \"intent\": 1, \"reason\": \"Multi-country European presence (FIME, UKI, DACH, Iberia) and large GTM teams suggest spend complexity; Senior RevOps EMEA hire signals regional expansion.\", \"key_quote\": \"spanning four Areas: FIME, UKI, DACH, and Iberia\"}\n```"
+}

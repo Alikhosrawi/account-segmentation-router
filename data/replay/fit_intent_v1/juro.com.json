@@ -1,0 +1,23 @@
+{
+ "domain": "juro.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:juro:ecf202fa-8c44-43e7-93a4-5b2d380c7911"
+ ],
+ "usage": {
+  "input_tokens": 1216,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 304,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0):** The posting is for a Customer Success Manager role at Juro, a legal tech/contract management platform. While Juro itself may be a potential buyer of B2B spend-management solutions, this single posting provides no explicit signals about:\n- Finance complexity (multiple entities, currencies, cost centres, growing finance teams)\n- Distributed spend (field teams, multiple offices, travel, events)\n- Finance tooling (no ERP, accounting, or spend tools mentioned)\n\nThe posting describes Juro's product and growth but not Juro's internal financial operations or structure.\n\n**INTENT (0):** No explicit signals of:\n- Finance hiring (this is a customer success role, not finance/controlling/accounting/procurement)\n- GTM scaleup (no mention of sales/revenue/RevOps team expansion)\n- New market entry (no NAMED new country/region mentioned; \"US growth\" is generic)\n- Tool adoption (no NAMED finance or GTM tool migration mentioned)\n\nThe posting mentions \"2026 is a big growth year\" but this is generic growth language, not a specific intent signal."
+}

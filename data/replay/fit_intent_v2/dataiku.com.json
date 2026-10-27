@@ -1,0 +1,25 @@
+{
+ "domain": "dataiku.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2",
+ "posting_ids": [
+  "greenhouse:dataiku:6225585004",
+  "greenhouse:dataiku:6145120004",
+  "greenhouse:dataiku:6148352004"
+ ],
+ "usage": {
+  "input_tokens": 2221,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 217,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"distributed_spend\",\n      \"posting_id\": \"greenhouse:dataiku:6225585004\",\n      \"evidence_quote\": \"field marketing across AMER, EMEA and APJ, partner marketing, and a global events portfolio\",\n      \"confidence\": 0.7\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"greenhouse:dataiku:6225585004\",\n      \"evidence_quote\": \"You lead a team of 25 accountable for a material share of company pipeline\",\n      \"confidence\": 0.8\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2\"\n}\n```"
+}

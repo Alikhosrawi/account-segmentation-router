@@ -1,0 +1,9 @@
+{"title":"FitIntentScore","type":"object","required":["fit","intent","signals","prompt_version"],"additionalProperties":false,
+ "properties":{"fit":{"type":"integer","minimum":0,"maximum":3},"intent":{"type":"integer","minimum":0,"maximum":3},
+  "signals":{"type":"array","items":{"type":"object","additionalProperties":false,
+   "required":["kind","signal_type","posting_id","evidence_quote","confidence"],
+   "properties":{"kind":{"enum":["fit","intent"]},
+    "signal_type":{"enum":["finance_complexity","distributed_spend","finance_tooling","finance_hiring","gtm_scaleup","new_market","tool_adoption"]},
+    "posting_id":{"type":"string","minLength":1},"evidence_quote":{"type":"string","minLength":1,"maxLength":400},
+    "confidence":{"type":"number","minimum":0,"maximum":1}}}},
+  "prompt_version":{"type":"string","minLength":1}}}

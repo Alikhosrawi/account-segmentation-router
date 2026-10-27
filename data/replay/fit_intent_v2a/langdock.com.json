@@ -1,0 +1,25 @@
+{
+ "domain": "langdock.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2a",
+ "posting_ids": [
+  "ashby:langdock:f572fdf3-3b46-4f78-876f-9767a6f97538",
+  "ashby:langdock:e27922a1-5484-410e-ada9-1d4f744b4ad6",
+  "ashby:langdock:944946c0-b6a3-4506-a4b7-3ce8c8778ea3"
+ ],
+ "usage": {
+  "input_tokens": 2649,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 325,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v2a\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** \n- No explicit mention of finance_complexity (multiple legal entities, currencies, countries, cost centres, growing finance team)\n- No explicit mention of distributed_spend (field teams, multiple offices, frequent travel, events)\n- No explicit mention of finance_tooling (ERP, accounting, or spend management tools the company uses internally)\n\nThe postings describe Langdock's *product* (an AI platform for enterprises) and its *customers*, not how Langdock itself operates financially or manages spend.\n\n**INTENT (0/3):**\n- No finance_hiring: The roles are Enterprise Technical Account Executive, Forward Deployed Engineer, and AI Associate—none are finance, accounting, controlling, or procurement roles.\n- No gtm_scaleup: While the company is hiring sales roles, the postings do not state that the sales/revenue/RevOps *team or function itself* is new, being built, or being expanded. These appear to be individual contributor roles, not team-building signals.\n- No new_market: No NAMED new country or region entry mentioned.\n- No tool_adoption: No mention of migrating to or rolling out a NAMED finance or GTM tool."
+}

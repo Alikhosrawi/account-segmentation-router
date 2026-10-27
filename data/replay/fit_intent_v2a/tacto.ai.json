@@ -1,0 +1,25 @@
+{
+ "domain": "tacto.ai",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2a",
+ "posting_ids": [
+  "ashby:tacto:4ec74d1d-fa8e-4bd7-86ac-08b232b9c768",
+  "ashby:tacto:fea81da8-b46a-4301-8904-4a0aec26d9e8",
+  "ashby:tacto:839557cd-5cfd-4bc8-a62b-7be17f8cd3f3"
+ ],
+ "usage": {
+  "input_tokens": 2664,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 272,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_tooling\",\n      \"posting_id\": \"ashby:tacto:fea81da8-b46a-4301-8904-4a0aec26d9e8\",\n      \"evidence_quote\": \"Run the full sales cycle: discovery, demo, potential analysis on real ERP data, ROI business case, closing\",\n      \"confidence\": 0.65\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"new_market\",\n      \"posting_id\": \"ashby:tacto:4ec74d1d-fa8e-4bd7-86ac-08b232b9c768\",\n      \"evidence_quote\": \"Benelux is one of our first markets. The Netherlands and Belgium hold a dense base of high-tech and industrial manufacturers\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2a\"\n}\n```"
+}

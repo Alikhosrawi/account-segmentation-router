@@ -1,0 +1,19 @@
+{
+ "domain": "enpal.de",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2517,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 122,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 2, \"intent\": 3, \"reason\": \"30+ legal entities in D365 F&O, active ERP migration to agentic model across GL/AP/AR, plus field sales teams with company cars signal strong fit and clear transformation moment.\", \"key_quote\": \"you own the Finance & SCM architecture across D365 F&O, defining how GL, AP, AR, Fixed Assets, Cash & Bank, and Project Accounting are structured, governed, and evolved across 30+ legal entities\"}\n```"
+}

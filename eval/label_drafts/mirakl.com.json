@@ -1,0 +1,19 @@
+{
+ "domain": "mirakl.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2274,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 74,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 2, \"intent\": 2, \"reason\": \"750+ employees across 9 international offices, multi-entity finance environment, and a Deputy Accounting Director role explicitly covering international multi-entity accounting operations.\", \"key_quote\": \"provide operational leadership in an international, multi-entity environment\"}\n```"
+}

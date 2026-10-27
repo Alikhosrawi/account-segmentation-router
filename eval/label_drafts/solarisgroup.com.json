@@ -1,0 +1,19 @@
+{
+ "domain": "solarisgroup.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 1932,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 94,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 1, \"intent\": 0, \"reason\": \"Solaris is a licensed bank and BaaS provider—a financial infrastructure vendor, not a typical B2B spend-management buyer; postings show no multi-entity finance team or employee spending signals.\", \"key_quote\": \"Solaris is Europe's leading embedded finance platform, pioneering Banking-as-a-Service\"}\n```"
+}

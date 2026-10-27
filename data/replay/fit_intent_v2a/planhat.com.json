@@ -1,0 +1,25 @@
+{
+ "domain": "planhat.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2a",
+ "posting_ids": [
+  "ashby:planhat:18ca4eda-089e-4940-ad2a-bc990676cc28",
+  "ashby:planhat:325c4313-fbb2-41ed-87a3-2e5b80ec3405",
+  "ashby:planhat:43f783cf-b24c-40f5-a9f7-6fc8746710d8"
+ ],
+ "usage": {
+  "input_tokens": 2670,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 154,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:planhat:325c4313-fbb2-41ed-87a3-2e5b80ec3405\",\n      \"evidence_quote\": \"build Planhat's earned-media and influencer engine from the ground up\",\n      \"confidence\": 0.75\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2a\"\n}\n```"
+}

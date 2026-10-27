@@ -1,0 +1,22 @@
+[
+ {
+  "domain": "wise.com",
+  "reason": "Greenhouse board \"wise\" belongs to Horace Mann (US insurer)"
+ },
+ {
+  "domain": "meetcleo.com",
+  "reason": "Greenhouse board \"cleo\" belongs to Cleo (US supply-chain software)"
+ },
+ {
+  "domain": "clark.de",
+  "reason": "Ashby board \"clark\" belongs to a US audit company"
+ },
+ {
+  "domain": "swan.io",
+  "reason": "Ashby board \"swan\" belongs to a US defense company"
+ },
+ {
+  "domain": "primer.io",
+  "reason": "Ashby board \"primer\" belongs to a US school network"
+ }
+]

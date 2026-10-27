@@ -1,0 +1,25 @@
+{
+ "domain": "swile.co",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "lever:swile:78e3232f-ac8e-4f21-b0ab-d2acfb098be4",
+  "lever:swile:3a3c4dbb-2f80-43e8-9db5-31ba504de2fd",
+  "lever:swile:68cebbc4-0c25-483c-b1a5-ca5a3ce1cf8a"
+ ],
+ "usage": {
+  "input_tokens": 3409,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 576,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 0,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_tooling\",\n      \"posting_id\": \"lever:swile:68cebbc4-0c25-483c-b1a5-ca5a3ce1cf8a\",\n      \"evidence_quote\": \"Gestão do funil de vendas e carteira de clientes através do Salesforce (ou CRM correlato)\",\n      \"confidence\": 0.7\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (1):**\n- **finance_tooling (0.7)**: Posting 3 explicitly names \"Salesforce\" as a tool the company uses internally for sales pipeline and customer portfolio management. This is a named finance/GTM tool in active use. Postings 1 and 2 mention \"Sales Force\" but without the full context of internal tool adoption. Posting 3 is clearest.\n- **finance_complexity**: No evidence. The postings mention Brasil and France as markets where Swile operates, but this is boilerplate company background (mission statement), not evidence of the *hiring company's* own operational complexity with multiple entities, currencies, or cost centres.\n- **distributed_spend**: No evidence. Sales roles with travel/events are normal sales job descriptions, not evidence of distributed employee spend requiring spend management.\n\n**INTENT (0):**\n- **finance_hiring**: No evidence. All three postings are sales roles (Sales Executive, Sales Executive Farmer, Sales Executive Middle Market). Finance hiring would be for accounting, controlling, procurement, or payroll roles.\n- **gtm_scaleup**: No evidence. While Swile is hiring multiple sales roles, the postings do not state that the sales/revenue/RevOps *team or function itself* is new or being built. These are individual contributor and account management roles, not team-building language like \"build our first SDR team\" or \"we are doubling the AE team.\"\n- **new_market**: No evidence. Brasil is mentioned as an existing market (Swile is already \"a scaleup pioneira de benefícios flexíveis no Brasil\"), not a newly entered market.\n- **tool_adoption**: No evidence. Salesforce/CRM is listed as a required skill/experience, not as a tool being migrated to or rolled out."
+}

@@ -1,0 +1,19 @@
+{
+ "domain": "juro.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 1058,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 61,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 0, \"intent\": 0, \"reason\": \"Juro is a legal-tech/contract platform with no evidence of multi-entity finance teams, ERP tools, or employee spending complexity.\", \"key_quote\": \"\"}\n```"
+}

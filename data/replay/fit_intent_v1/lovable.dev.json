@@ -1,0 +1,25 @@
+{
+ "domain": "lovable.dev",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:lovable:87509059-8b3a-48fd-94d9-d4207841a356",
+  "ashby:lovable:a5bfe338-39a2-4ef5-835a-599665f2db9c",
+  "ashby:lovable:7a823e19-49ed-46d4-ba41-4b34b2d53935"
+ ],
+ "usage": {
+  "input_tokens": 2363,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 451,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 2,\n  \"intent\": 2,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:lovable:a5bfe338-39a2-4ef5-835a-599665f2db9c\",\n      \"evidence_quote\": \"own our month-end close and consolidation process across the US, Sweden and the UK\",\n      \"confidence\": 0.9\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:lovable:87509059-8b3a-48fd-94d9-d4207841a356\",\n      \"evidence_quote\": \"We have US, Swedish and UK entities and we report under US GAAP\",\n      \"confidence\": 0.9\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:lovable:87509059-8b3a-48fd-94d9-d4207841a356\",\n      \"evidence_quote\": \"You'll report to our Group Financial Controller. This is a builder's role: there is a lot to set up\",\n      \"confidence\": 0.85\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:lovable:a5bfe338-39a2-4ef5-835a-599665f2db9c\",\n      \"evidence_quote\": \"You'll report to our Accounting Controller, and work alongside a small team\",\n      \"confidence\": 0.8\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

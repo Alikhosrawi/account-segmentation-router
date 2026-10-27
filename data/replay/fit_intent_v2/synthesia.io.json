@@ -1,0 +1,25 @@
+{
+ "domain": "synthesia.io",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2",
+ "posting_ids": [
+  "ashby:synthesia:ce402b96-d2c2-4651-bb20-2b8cf6166acc",
+  "ashby:synthesia:8d8233ca-15c4-4feb-99f6-46c5c48db52c",
+  "ashby:synthesia:9126e40f-ff2c-4cf7-b696-67c3787983cc"
+ ],
+ "usage": {
+  "input_tokens": 2508,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 161,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:synthesia:8d8233ca-15c4-4feb-99f6-46c5c48db52c\",\n      \"evidence_quote\": \"You'll lead a team of five PMMs, hire into it, and raise the bar for what good looks like.\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2\"\n}\n```"
+}

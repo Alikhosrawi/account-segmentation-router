@@ -1,0 +1,25 @@
+{
+ "domain": "aircall.io",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "lever:aircall:79c2bd37-9a22-4a97-8376-bcf50a5a576d",
+  "lever:aircall:cb63281c-c969-48df-a9fa-b58a32adde24",
+  "lever:aircall:6737595c-eea0-4e64-b619-0894d532bead"
+ ],
+ "usage": {
+  "input_tokens": 2246,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 264,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"lever:aircall:cb63281c-c969-48df-a9fa-b58a32adde24\",\n      \"evidence_quote\": \"support the full EMEA GTM motion across Business Development Representative (BDR), Account Executive (AE), Partner Account Manager (PAM), Account Manager (AM)\",\n      \"confidence\": 0.7\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"new_market\",\n      \"posting_id\": \"lever:aircall:6737595c-eea0-4e64-b619-0894d532bead\",\n      \"evidence_quote\": \"Regional Marketing Intern to support the execution of the DACH marketing strategy\",\n      \"confidence\": 0.6\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

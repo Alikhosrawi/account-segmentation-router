@@ -1,0 +1,25 @@
+{
+ "domain": "contentsquare.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "lever:contentsquare:cc5efc5d-2934-4898-823e-60539709de33",
+  "lever:contentsquare:3673c1f8-b4c5-4445-8209-797623f06a91",
+  "lever:contentsquare:11f97616-cc67-4fc1-9137-ea7c4c28b551"
+ ],
+ "usage": {
+  "input_tokens": 2165,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 265,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"lever:contentsquare:11f97616-cc67-4fc1-9137-ea7c4c28b551\",\n      \"evidence_quote\": \"Coordinate and consolidate monthly forecasting cycles and the annual budget process across business units.\",\n      \"confidence\": 0.6\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"lever:contentsquare:11f97616-cc67-4fc1-9137-ea7c4c28b551\",\n      \"evidence_quote\": \"We are looking for a high-performing Senior FP&A Analyst with 5 to 7 years of experience to join our Finance team.\",\n      \"confidence\": 0.8\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

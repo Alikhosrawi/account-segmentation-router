@@ -1,0 +1,25 @@
+{
+ "domain": "swile.co",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "lever:swile:78e3232f-ac8e-4f21-b0ab-d2acfb098be4",
+  "lever:swile:3a3c4dbb-2f80-43e8-9db5-31ba504de2fd",
+  "lever:swile:68cebbc4-0c25-483c-b1a5-ca5a3ce1cf8a"
+ ],
+ "usage": {
+  "input_tokens": 2827,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 388,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"lever:swile:78e3232f-ac8e-4f21-b0ab-d2acfb098be4\",\n      \"evidence_quote\": \"A posição de Sales Executive tem papel estratégico dentro da equipe de Small Corporate\",\n      \"confidence\": 0.6\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_tooling\",\n      \"posting_id\": \"lever:swile:68cebbc4-0c25-483c-b1a5-ca5a3ce1cf8a\",\n      \"evidence_quote\": \"Gestão do funil de vendas e carteira de clientes através do Salesforce (ou CRM correlato)\",\n      \"confidence\": 0.5\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"lever:swile:3a3c4dbb-2f80-43e8-9db5-31ba504de2fd\",\n      \"evidence_quote\": \"Contribuir diretamente com o crescimento da Swile, e com o resultado de chegar ao 1.5M de vidas globalmente\",\n      \"confidence\": 0.6\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

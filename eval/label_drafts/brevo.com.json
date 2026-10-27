@@ -1,0 +1,19 @@
+{
+ "domain": "brevo.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2011,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 86,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 1, \"intent\": 0, \"reason\": \"Brevo is a SaaS/CRM vendor with European offices but postings show no finance team, ERP tools, or multi-entity spend complexity.\", \"key_quote\": \"Own the regional marketing budget (~€1M), track ROI and report on pipeline contribution to senior leadership\"}\n```"
+}

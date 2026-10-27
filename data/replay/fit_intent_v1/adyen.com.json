@@ -1,0 +1,25 @@
+{
+ "domain": "adyen.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "greenhouse:adyen:8232429",
+  "greenhouse:adyen:8158755",
+  "greenhouse:adyen:8302558"
+ ],
+ "usage": {
+  "input_tokens": 2033,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 226,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"greenhouse:adyen:8158755\",\n      \"evidence_quote\": \"Through partnerships with major commerce, POS, enterprise software, and cloud platforms (such as Adobe Commerce, Salesforce, Oracle, and SAP)\",\n      \"confidence\": 0.6\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"greenhouse:adyen:8302558\",\n      \"evidence_quote\": \"Build a team: Establish a new engineering team from the ground up, hiring and shaping the team as required\",\n      \"confidence\": 0.5\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

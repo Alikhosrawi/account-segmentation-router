@@ -1,0 +1,25 @@
+{
+ "domain": "zenjob.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:zenjob:244cb88a-6cef-4729-a12f-a104642ff3ec",
+  "ashby:zenjob:c7b9e785-792f-4fd0-a8f1-af3f53688502",
+  "ashby:zenjob:cea79f7b-5573-40e1-a40a-b414cbfa54b3"
+ ],
+ "usage": {
+  "input_tokens": 2988,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 297,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"distributed_spend\",\n      \"posting_id\": \"ashby:zenjob:244cb88a-6cef-4729-a12f-a104642ff3ec\",\n      \"evidence_quote\": \"Du verantwortest und entwickelst dein Kundenportfolio. Du steuerst Umsatz, Kundenbindung und Wachstum\",\n      \"confidence\": 0.4\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:zenjob:244cb88a-6cef-4729-a12f-a104642ff3ec\",\n      \"evidence_quote\": \"Zenjob PRO ist das Start-up innerhalb des Scale-ups. Wir haben die Mission, den Markt für Werkstudierende zu revolutionieren.\",\n      \"confidence\": 0.5\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

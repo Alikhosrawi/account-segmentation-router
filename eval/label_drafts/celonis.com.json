@@ -1,0 +1,19 @@
+{
+ "domain": "celonis.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 1867,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 71,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 1, \"intent\": 1, \"reason\": \"Celonis is a large enterprise software vendor in Germany/DACH, but postings show sales/consulting roles with no finance-team, multi-entity, or employee-spending signals.\", \"key_quote\": \"\"}\n```"
+}

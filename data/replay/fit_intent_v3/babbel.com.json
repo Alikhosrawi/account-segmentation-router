@@ -1,0 +1,25 @@
+{
+ "domain": "babbel.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:babbel:dd520fb8-ede6-4d9f-9423-111e2eb801ac",
+  "ashby:babbel:263d08cf-21aa-4a1e-84fd-3dc1f6b819bd",
+  "ashby:babbel:91779c86-7101-4dae-a22b-70ed7970c47a"
+ ],
+ "usage": {
+  "input_tokens": 2869,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 397,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):**\n- **finance_complexity**: No evidence. The postings mention \"25MM+ learners\" and \"global strategy\" but do not describe the company's internal financial structure, legal entities, currencies, countries of operation, or finance team growth.\n- **distributed_spend**: No evidence. These are marketing and engineering roles. No mention of field teams, multiple offices with spending employees, travel, or events requiring spend management.\n- **finance_tooling**: No evidence. No ERP, accounting, or spend-management tools are named.\n\n**INTENT (0/3):**\n- **finance_hiring**: No evidence. All three postings are for marketing (Performance Marketing Intern, Growth Lead) and engineering (Principal Engineer – AI Content Systems) roles. None are finance, accounting, controlling, procurement, or payroll roles.\n- **gtm_scaleup**: No evidence. While the Growth Lead posting describes \"leading a high-performing team,\" it is a single leadership hire for an existing function (Paid Social & Experimentation), not building or expanding the sales/revenue/RevOps team itself.\n- **new_market**: No evidence. No NAMED new country or region entry is mentioned.\n- **tool_adoption**: No evidence. No migration to or rollout of a NAMED finance or GTM tool is described.\n\nBabbel is a language-learning SaaS company. These postings describe customer-facing product and marketing roles, not internal finance operations or spend patterns that would indicate a need for B2B spend-management software."
+}

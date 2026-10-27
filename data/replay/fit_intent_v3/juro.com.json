@@ -1,0 +1,23 @@
+{
+ "domain": "juro.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:juro:ecf202fa-8c44-43e7-93a4-5b2d380c7911"
+ ],
+ "usage": {
+  "input_tokens": 1798,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 247,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** The posting describes Juro's own product (contract management platform) and customer success operations, not Juro's internal finance complexity, distributed spend, or finance tooling. The mention of \"office hubs in Boston (US) and London (UK) as well as no-office hubs in several European countries\" is boilerplate location/office listing, not evidence of finance_complexity. No signals for finance_tooling, distributed_spend, or finance_complexity in how Juro itself operates internally.\n\n**INTENT (0/3):** This is a customer success role, not finance_hiring. There is no evidence of finance/accounting/controlling/procurement team building or expansion. No named tool adoption, new market entry, or GTM team scaling mentioned. The generic growth statement (\"2026 is a big growth year\") is not a signal per the rules."
+}

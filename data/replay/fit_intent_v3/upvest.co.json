@@ -1,0 +1,25 @@
+{
+ "domain": "upvest.co",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:upvest:aab1da57-e73c-4989-b0d1-f70d24b09813",
+  "ashby:upvest:fe82ad57-73bd-4359-b4e3-904cff54aaa3",
+  "ashby:upvest:5c86b1fd-d477-4b08-b41b-80a46654ea43"
+ ],
+ "usage": {
+  "input_tokens": 3008,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 480,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):**\n- **finance_complexity**: The postings mention \"over 70 nationalities\" and operations in France and Germany, but this is boilerplate office/location listing, not evidence of the company's own finance complexity (multiple legal entities, cost centres, growing finance team).\n- **distributed_spend**: No evidence of many employees spending company money, field teams, or frequent travel within Upvest's own operations.\n- **finance_tooling**: No named ERP, accounting, or spend-management tools that Upvest uses internally are mentioned.\n\n**INTENT (0/3):**\n- **finance_hiring**: The postings are for Securities Operations Intern, AFC Operations Intern, and Account Executive roles. None are finance/accounting/controlling/procurement/payroll hires for Upvest's internal finance function. The operations roles are for Upvest's product/service delivery (post-trade securities operations, anti-financial crime compliance), not for building Upvest's own finance team.\n- **gtm_scaleup**: The Account Executive posting mentions \"build out our Embedded Investments segment\" and \"The Growth team at Upvest is driving our go-to-market activities,\" but this is a normal sales hire into an existing GTM function, not evidence that the sales/revenue/RevOps team itself is new or being built as a function.\n- **new_market**: Upvest is launching PEA in France (a product launch), but this is what Upvest sells to customers, not evidence of Upvest entering a new market for its own operations.\n- **tool_adoption**: No named finance or GTM tool migration or rollout is mentioned.\n\nUpvest is a fintech/investment platform company. Its own treasury, trading, and capital-markets operations are part of its product, not internal finance complexity or hiring signals for a spend-management buyer."
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "solarisgroup.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "greenhouse:solarisbank:8869927002",
+  "greenhouse:solarisbank:8874221002",
+  "greenhouse:solarisbank:8829828002"
+ ],
+ "usage": {
+  "input_tokens": 2672,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 455,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0):** \n- Solaris is a bank/fintech providing embedded finance services to other companies. The postings describe Solaris's own product (Banking-as-a-Service, accounts, cards, lending, payments) and its customers (fintechs, digital ecosystems, multinationals). Per the rules, \"Sentences describing the company's OWN product or customers (what it sells) are not evidence of fit.\"\n- No explicit evidence of finance_complexity (multiple legal entities, currencies, cost centres, growing finance team at Solaris itself).\n- No explicit evidence of distributed_spend (field teams, multiple offices with spending, frequent travel).\n- No explicit evidence of finance_tooling (no named ERP, accounting, or spend management tools that Solaris uses internally).\n- The mention of \"banking operations out of Frankfurt\" and \"technology infrastructure out of Berlin\" is boilerplate office/location listing, not finance_complexity.\n\n**INTENT (0):**\n- Posting 1 (Talent Acquisition Partner): HR/recruiting role, not finance_hiring.\n- Posting 2 (Team Lead KYB Operations): KYB (Know Your Business) compliance/operations role. While operations-adjacent, this is regulatory/compliance operations for the bank's own product delivery, not a finance-operations hire (accountant, controller, AP, head of finance, procurement, spend governance). Not finance_hiring.\n- Posting 3 (Senior Product Marketing Manager): Product marketing role, not finance_hiring or gtm_scaleup (no evidence the sales/revenue/RevOps team itself is being built or expanded).\n- No evidence of new_market entry (named country/region expansion).\n- No evidence of tool_adoption (named finance or GTM tool migration/rollout)."
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "sumup.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2",
+ "posting_ids": [
+  "greenhouse:sumup:8905780002",
+  "greenhouse:sumup:8907474002",
+  "greenhouse:sumup:8905804002"
+ ],
+ "usage": {
+  "input_tokens": 2375,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 217,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"distributed_spend\",\n      \"posting_id\": \"greenhouse:sumup:8907474002\",\n      \"evidence_quote\": \"Direct Sales at SumUp spans Telesales and Key Accounts teams across multiple European markets\",\n      \"confidence\": 0.7\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"greenhouse:sumup:8907474002\",\n      \"evidence_quote\": \"Key Accounts is being scaled up, Telesales is shifting further into outbound selling\",\n      \"confidence\": 0.8\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2\"\n}\n```"
+}

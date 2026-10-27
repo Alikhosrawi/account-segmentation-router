@@ -1,0 +1,25 @@
+{
+ "domain": "doctolib.fr",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "greenhouse:doctolib:8040014003",
+  "greenhouse:doctolib:8036876003",
+  "greenhouse:doctolib:8038727003"
+ ],
+ "usage": {
+  "input_tokens": 3307,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 230,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"greenhouse:doctolib:8040014003\",\n      \"evidence_quote\": \"Revenue Operations bündelt die kommerzielle Planung und Steuerung für alle Sales Motions\",\n      \"confidence\": 0.65\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_tooling\",\n      \"posting_id\": \"greenhouse:doctolib:8038727003\",\n      \"evidence_quote\": \"Du misst Deine Performance konsequent mit Salesforce, analysierst Deine Kennzahlen\",\n      \"confidence\": 0.7\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```"
+}

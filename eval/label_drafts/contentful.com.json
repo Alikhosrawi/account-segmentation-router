@@ -1,0 +1,19 @@
+{
+ "domain": "contentful.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 1871,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 75,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 1, \"intent\": 1, \"reason\": \"Multi-country European sales teams (BNL, Spanish markets) suggest some spend complexity, but no finance/ERP tools or controlling team mentioned.\", \"key_quote\": \"Drive expansion opportunities with existing clients in the BNL territory.\"}\n```"
+}

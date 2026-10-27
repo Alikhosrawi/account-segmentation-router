@@ -1,0 +1,25 @@
+{
+ "domain": "matillion.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "lever:matillion:ecfd6652-cf44-4b6e-bba2-978d432d2e1e",
+  "lever:matillion:dd806806-af77-4c69-ba22-26a797f3e50f",
+  "lever:matillion:929da6fe-b99f-4438-b4f3-21628db51c2a"
+ ],
+ "usage": {
+  "input_tokens": 2772,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 265,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"lever:matillion:ecfd6652-cf44-4b6e-bba2-978d432d2e1e\",\n      \"evidence_quote\": \"We started in Manchester and now we're global - with teams across the UK, US and India.\",\n      \"confidence\": 0.7\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"lever:matillion:dd806806-af77-4c69-ba22-26a797f3e50f\",\n      \"evidence_quote\": \"Managing the engineering tooling portfolio end to end, including vendor evaluation, contract negotiation and renewals, in partnership with Finance, Procurement, Legal and Security.\",\n      \"confidence\": 0.65\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```"
+}

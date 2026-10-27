@@ -1,0 +1,25 @@
+{
+ "domain": "getyourguide.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2a",
+ "posting_ids": [
+  "greenhouse:getyourguide:8303200",
+  "greenhouse:getyourguide:8305682",
+  "greenhouse:getyourguide:8225766"
+ ],
+ "usage": {
+  "input_tokens": 2448,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 208,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"distributed_spend\",\n      \"posting_id\": \"greenhouse:getyourguide:8225766\",\n      \"evidence_quote\": \"Regularly travel (up to 25%) to build strong relationships with suppliers in destination\",\n      \"confidence\": 0.7\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"greenhouse:getyourguide:8225766\",\n      \"evidence_quote\": \"strengthen our expert Sales Team in Mexico City\",\n      \"confidence\": 0.65\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2a\"\n}\n```"
+}

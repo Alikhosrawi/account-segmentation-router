@@ -1,0 +1,25 @@
+{
+ "domain": "enpal.de",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:enpal:de38af5e-38e2-45e3-ae91-96c4828424c7",
+  "ashby:enpal:0f5c0e4c-e79c-495b-b95e-c1c43fd7aee3",
+  "ashby:enpal:3aec7c9e-3806-466e-8b2c-28be4261ad32"
+ ],
+ "usage": {
+  "input_tokens": 2675,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 588,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 2,\n  \"intent\": 2,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:enpal:0f5c0e4c-e79c-495b-b95e-c1c43fd7aee3\",\n      \"evidence_quote\": \"across 30+ legal entities. You set the design standards that functional consultants\",\n      \"confidence\": 0.95\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_tooling\",\n      \"posting_id\": \"ashby:enpal:0f5c0e4c-e79c-495b-b95e-c1c43fd7aee3\",\n      \"evidence_quote\": \"D365 F&O setup into an Agentic Enterprise, a clean D365 core\",\n      \"confidence\": 0.95\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"tool_adoption\",\n      \"posting_id\": \"ashby:enpal:0f5c0e4c-e79c-495b-b95e-c1c43fd7aee3\",\n      \"evidence_quote\": \"transforming its ERP landscape from a traditional D365 F&O setup into an Agentic Enterprise\",\n      \"confidence\": 0.9\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:enpal:de38af5e-38e2-45e3-ae91-96c4828424c7\",\n      \"evidence_quote\": \"Accounting & Reporting Manager (f/m/x), you will be the key accounting expert for Enpal Financial Services\",\n      \"confidence\": 0.85\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:enpal:de38af5e-38e2-45e3-ae91-96c4828424c7\",\n      \"evidence_quote\": \"HGB and IFRS accounting, financial reporting, month-end and year-end closing processes\",\n      \"confidence\": 0.7\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

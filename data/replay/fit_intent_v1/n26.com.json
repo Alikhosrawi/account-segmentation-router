@@ -1,0 +1,25 @@
+{
+ "domain": "n26.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "greenhouse:n26:8167305",
+  "greenhouse:n26:8312214",
+  "greenhouse:n26:8281301"
+ ],
+ "usage": {
+  "input_tokens": 2125,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 236,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0):** N26 is a fintech/digital bank, not an SMB or mid-market company that would be a buyer of B2B spend-management products. The postings describe internal treasury and corporate finance roles, not the profile of a customer. No signals of finance_complexity (as a buyer), distributed_spend, or finance_tooling adoption relevant to spend management.\n\n**INTENT (0):** While the postings show finance hiring activity, this is treasury/trading/corporate finance hiring—not finance team expansion in the sense of spend management, accounting operations, or procurement scaling. No signals of gtm_scaleup, new_market entry, or tool adoption relevant to spend-management solutions. The mention of \"SQL\" and \"automated reporting solutions\" relates to internal banking infrastructure, not adoption of external spend-management platforms."
+}

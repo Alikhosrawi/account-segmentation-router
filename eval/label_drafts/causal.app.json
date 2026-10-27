@@ -1,0 +1,19 @@
+{
+ "domain": "causal.app",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 1964,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 56,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 0, \"intent\": 0, \"reason\": \"US/Singapore AI research startup with no finance team, multi-entity operations, European presence, or spend-management signals.\", \"key_quote\": \"\"}\n```"
+}

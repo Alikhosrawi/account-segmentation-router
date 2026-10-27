@@ -1,0 +1,129 @@
+company,domain,ats,board_slug,headcount_band,headcount_raw,headcount_quote,headcount_source,hq_country,hq_basis,hq_quote,hq_source,territory,firmo_note
+Attio,attio.com,ashby,attio,51-200,196,"Employees
+- 196",https://pitchbook.com/profiles/company/226657-45,GB,web (cited),"London EC1M 4EA
+- England, United Kingdom",https://pitchbook.com/profiles/company/226657-45,UKI,
+DeepL,deepl.com,ashby,deepl,1001-5000,"1,001-5,000 employees","Company size: 1,001-5,000 employees",https://www.linkedin.com/company/deepl,DE,web (cited),"Maarweg 165 Cologne, North Rhine-Westphalia 50825, DE",https://www.linkedin.com/company/deepl,DACH,
+Langdock,langdock.com,ashby,langdock,51-200,65,"Langdock has 65 employees based in Berlin, Germany.",https://www.ycombinator.com/companies/langdock,DE,unverified (my best guess; no cited source),,,DACH,
+Moss,getmoss.com,ashby,moss,201-500,201-500,Company size: 201-500 employees,https://www.linkedin.com/company/mosscredit,DE,web (cited),Headquarters: Berlin,https://www.linkedin.com/company/mosscredit,DACH,
+n8n,n8n.io,ashby,n8n,501-1000,"1,000","Employees
+- 1,000",https://pitchbook.com/profiles/company/398691-46,DE,web (cited),"Headquarters**: Berlin, BE",https://www.linkedin.com/company/n8n/,DACH,
+Parloa,parloa.com,ashby,parloa,501-1000,"501-1,000","Employees
+
+501-1000 people",https://app.dealroom.co/companies/parloa,DE,web (cited),"Schönhauser Allee 9
+- 10119 Berlin
+- Germany",https://pitchbook.com/profiles/company/438793-66,DACH,
+Planhat,planhat.com,ashby,planhat,51-200,51-200 employees,**Company size**: 51-200 employees,https://www.linkedin.com/company/planhat,SE,web (cited),"The company was founded in Stockholm, Sweden in 2015",https://www.linkedin.com/company/planhat,Nordics,
+Qonto,qonto.com,ashby,qonto,1001-5000,"1,001-5,000 employees","Company size: 1,001-5,000 employees",https://www.linkedin.com/company/qonto,FR,web (cited),"Headquarters: Paris, Île-de-France",https://www.linkedin.com/company/qonto,France,
+Pennylane,pennylane.com,ashby,pennylane,201-500,201-500,Company size: 201-500 employees,https://www.linkedin.com/company/pennylaneaccounting,FR,web (cited),"Primary 5, Rue des Italiens Paris, Île-de-France 75009, FR",https://www.linkedin.com/company/pennylaneaccounting,France,
+Lovable,lovable.dev,ashby,lovable,51-200,51-200 employees,Company size: 51-200 employees,https://www.linkedin.com/company/lovable-dev,SE,web (cited),Headquarters: Stockholm,https://www.linkedin.com/company/lovable-dev,Nordics,
+Synthesia,synthesia.io,ashby,synthesia,501-1000,"501-1,000","Company size: 501-1,000 employees",https://www.linkedin.com/company/synthesia-technologies,GB,web (cited),"Headquarters: London, England",https://www.linkedin.com/company/synthesia-technologies,UKI,
+ElevenLabs,elevenlabs.io,ashby,elevenlabs,51-200,51-200,Company size: 51-200 employees,https://www.linkedin.com/company/elevenlabsio,GB,web (cited),Headquarters: London,https://www.linkedin.com/company/elevenlabsio,UKI,cited LinkedIn band may be stale; other public sources suggest more staff
+Juro,juro.com,ashby,juro,51-200,51-200,Company size: 51-200 employees,https://www.linkedin.com/company/juro,GB,web (cited),"Headquarters: London, England",https://www.linkedin.com/company/juro,UKI,
+Buena,buena.com,ashby,buena,11-50,11-50,Company size: 11-50 employees,https://www.linkedin.com/company/withbuenadotcom/,DE,web (cited),Headquarters: Berlin,https://www.linkedin.com/company/withbuenadotcom/,DACH,
+Tacto,tacto.ai,ashby,tacto,51-200,110,"Employees
+- 110",https://pitchbook.com/profiles/company/443068-39,DE,web (cited),"Corporate Office
+- Sandstraße 33
+- 80335 Munich
+- Germany",https://pitchbook.com/profiles/company/443068-39,DACH,
+Billie,billie.io,ashby,billie,51-200,154,Total employees 154,https://www.highperformr.ai/company/billie.io,DE,web (cited),headquartered in Berlin.,https://www.highperformr.ai/company/billie.io,DACH,
+Perk,perk.com,ashby,perk,unknown,,,,ES,unverified (my best guess; no cited source),,,Southern,"search hit was a different company (linkedin.com/company/perk, Boston); rejected on manual review"
+Causal,causal.app,ashby,causal,11-50,11-50,Company size: 11-50 employees,https://www.linkedin.com/company/causalhq,GB,web (cited),Headquarters: London,https://www.linkedin.com/company/causalhq,UKI,
+Forto,forto.com,ashby,forto,501-1000,503,Forto has 503 employees.,https://getlatka.com/companies/forto.com,DE,web (cited),"Headquartered in Berlin, Germany",https://www.linkedin.com/company/fortocompany,DACH,
+N26,n26.com,greenhouse,n26,1001-5000,"1,001-5,000 employees","Company size: 1,001-5,000 employees",https://www.linkedin.com/company/n26,DE,web (cited),N26 AG is Europe's leading digital bank with a full German banking licence.,https://www.linkedin.com/company/n26,DACH,
+Contentful,contentful.com,greenhouse,contentful,501-1000,987,"Employees
+- 987",https://pitchbook.com/profiles/company/58213-54,DE,web (cited),"Corporate Office
+- Max-Urich-Straße 3
+- 13355 Berlin
+- Germany",https://pitchbook.com/profiles/company/58213-54,DACH,
+GetYourGuide,getyourguide.com,greenhouse,getyourguide,501-1000,"501-1,000","501-1,000 Employees",https://www.zoominfo.com/c/getyourguide-inc/346546625,DE,web (cited),"Sonnenburger Strasse 73, Berlin, Berlin, 10437, Germany",https://www.datanyze.com/companies/getyourguide/346546625,DACH,
+Celonis,celonis.com,greenhouse,celonis,1001-5000,"3,500","Employees
+- 3,500",https://pitchbook.com/profiles/company/149258-71,DE,web (cited),"80333 Munich
+- Germany",https://pitchbook.com/profiles/company/149258-71,DACH,
+SumUp,sumup.com,greenhouse,sumup,1001-5000,"3,768","Employees
+- 3,768",https://pitchbook.com/profiles/company/55613-26,GB,web (cited),"Corporate Office
+- 16-20 Shorts Gardens
+- London WC2H 9US
+- England, United Kingdom",https://pitchbook.com/profiles/company/55613-26,UKI,
+Adyen,adyen.com,greenhouse,adyen,5001-10000,"5,020","Employees
+- 5,020",https://pitchbook.com/profiles/company/54275-77,NL,web (cited),"**Headquarters**: Amsterdam, North Holland",https://www.linkedin.com/company/adyen,Benelux,
+GoCardless,gocardless.com,greenhouse,gocardless,501-1000,827,How GoCardless hit $161M revenue with a 827 person team in 2024.,https://getlatka.com/companies/gocardless.com,GB,unverified (my best guess; no cited source),,,UKI,
+Tide,tide.co,greenhouse,tide,1001-5000,"3,100","Employees
+- 3,100",https://pitchbook.com/profiles/company/163104-58,GB,web (cited),"Corporate Office
+- 4th Floor The Featherstone Building
+- 66 City Road
+- London EC1Y 2AL
+- England, United Kingdom",https://pitchbook.com/profiles/company/163104-58,UKI,
+Raisin,raisin.com,greenhouse,raisin,501-1000,533,Employees: 533; Oct 2024,https://getlatka.com/companies/raisin,DE,unverified (my best guess; no cited source),,,DACH,
+Solaris,solarisgroup.com,greenhouse,solarisbank,501-1000,"501-1,000 employees","Company size: 501-1,000 employees",https://www.linkedin.com/company/solariscompany,DE,web (cited),"Primary Cuvrystraße 53 Berlin, 10997, DE",https://www.linkedin.com/company/solariscompany,DACH,
+Typeform,typeform.com,greenhouse,typeform,501-1000,"501-1,000","Employees
+
+501-1000 people",https://app.dealroom.co/companies/typeform,ES,web (cited),"Barcelona, Spain",https://pitchbook.com/profiles/company/58818-79,Southern,
+Doctolib,doctolib.fr,greenhouse,doctolib,1001-5000,"3,000","Employees
+- 3,000",https://pitchbook.com/profiles/company/62992-09,FR,web (cited),"54 quai Charles Pasqua
+- 92300 Levallois-Perret
+- France",https://pitchbook.com/profiles/company/62992-09,France,
+Swile,swile.co,lever,swile,501-1000,759,"Employees
+- 759",https://pitchbook.com/profiles/company/227360-71,FR,web (cited),"34000 Montpellier
+- France",https://pitchbook.com/profiles/company/227360-71,France,
+Matillion,matillion.com,lever,matillion,201-500,468,"Team
+
+468",https://getlatka.com/companies/matillion,GB,web (cited),"Altrincham, England, United Kingdom",https://getlatka.com/companies/matillion,UKI,
+Pipedrive,pipedrive.com,lever,pipedrive,501-1000,892,"Pipedrive had 892 employees as of March 2026, up 49 (+1.6%) from the prior year.",https://www.reveliolabs.com/companies/pipedrive/employees,US,web (cited),"Founded in 2010, the company is headquartered in New York City, New York.",https://www.reveliolabs.com/companies/pipedrive/employees,Non-EU HQ,
+Brevo,brevo.com,lever,brevo,501-1000,"1,000","Employees
+- 1,000",https://pitchbook.com/profiles/company/95110-30,FR,web (cited),"9-17 Rue de Salneuve
+- 75017 Paris
+- France",https://pitchbook.com/profiles/company/95110-30,France,
+Pleo,pleo.io,ashby,pleo,501-1000,"501-1,000 employees","**Company size**: 501-1,000 employees",https://www.linkedin.com/company/pleo-company,DK,web (cited),"Ravnsborg Tværgade 5 Pleo Technologies A/S København N, Hovedstaden 2200, DK",https://www.linkedin.com/company/pleo-company,Nordics,
+Paddle,paddle.com,ashby,paddle,201-500,201-500 employees,Company size: 201-500 employees,https://uk.linkedin.com/company/paddle,GB,web (cited),"Headquarters: London, England",https://uk.linkedin.com/company/paddle,UKI,
+TrueLayer,truelayer.com,ashby,truelayer,201-500,281,"TrueLayer employs approximately 281 people as of 2026, down from 311 in 2024.",https://getlatka.com/companies/truelayer,GB,web (cited),"Where is TrueLayer headquartered? TrueLayer is headquartered in London, United Kingdom.",https://pitchbook.com/profiles/company/170527-06,UKI,
+Agicap,agicap.com,lever,agicap,501-1000,747,"Employees
+- 747",https://pitchbook.com/profiles/company/279989-83,FR,web (cited),"69009 Lyon
+- France",https://pitchbook.com/profiles/company/279989-83,France,
+Pigment,gopigment.com,lever,pigment,501-1000,829,"Employees
+- 829",https://pitchbook.com/profiles/company/435866-68,FR,web (cited),"8 rue Sainte-Cécile
+- 75009 Paris
+- France",https://pitchbook.com/profiles/company/435866-68,France,
+Alan,alan.com,ashby,alan,501-1000,900,"Employees
+- 900",https://pitchbook.com/profiles/company/167531-14,FR,web (cited),"117 Quai de Valmy
+- 75010 Paris
+- France",https://pitchbook.com/profiles/company/167531-14,France,
+Aircall,aircall.io,lever,aircall,501-1000,800,"### Employees
+
+800",https://www.datanyze.com/companies/aircall/1311839,US,web (cited),"44 W 28th St Fl 14, New York, New York, 10001, United States",https://www.datanyze.com/companies/aircall/1311839,Non-EU HQ,
+Mirakl,mirakl.com,greenhouse,mirakl,501-1000,"501-1,000 employees","Company size: 501-1,000 employees",https://www.linkedin.com/company/mirakl,FR,web (cited),"Headquarters: Paris, Île-de-France",https://www.linkedin.com/company/mirakl,France,
+Babbel,babbel.com,ashby,babbel,1001-5000,"1,299","Employees
+
+1,299",https://www.datanyze.com/companies/babbel/348127505,DE,web (cited),"Founded in 2007 and headquartered in Berlin, Germany",https://www.datanyze.com/companies/babbel/348127505,DACH,
+Contentsquare,contentsquare.com,lever,contentsquare,1001-5000,"1,001-5,000 employees","Company size: 1,001-5,000 employees",https://www.linkedin.com/company/contentsquare,FR,web (cited),Headquarters: Paris,https://www.linkedin.com/company/contentsquare,France,
+Ledger,ledger.com,ashby,ledger,501-1000,800,"Employees
+- 800",https://pitchbook.com/profiles/company/109108-81,FR,web (cited),"75003 Paris
+- France",https://pitchbook.com/profiles/company/109108-81,France,
+Dataiku,dataiku.com,greenhouse,dataiku,1001-5000,"1,200","Employees
+- 1,200",https://pitchbook.com/profiles/company/86021-02,US,web (cited),"Corporate Office
+- 125 West 25th Street
+- 7th Floor
+- New York, NY 10001
+- United States",https://pitchbook.com/profiles/company/86021-02,Non-EU HQ,
+Make,make.com,greenhouse,make,201-500,201-500 employees,Company size: 201-500 employees,https://www.linkedin.com/company/itsmakehq,CZ,web (cited),"Prague, Praha 8, Czech Republic",https://getlatka.com/companies/make.com,CEE,
+Mollie,mollie.com,ashby,mollie,501-1000,"501-1,000","Company size: 501-1,000 employees",https://uk.linkedin.com/company/mollie,NL,web (cited),"Keizersgracht 126 Amsterdam, North Holland 1015, NL",https://uk.linkedin.com/company/mollie,Benelux,
+Pliant,getpliant.com,ashby,pliant,201-500,225,Pliant employs approximately 225 people as of 2026.,https://getlatka.com/companies/getpliant.com,DE,unverified (my best guess; no cited source),,,DACH,
+Payrails,payrails.com,ashby,payrails,11-50,11-50,Company size: 11-50 employees,https://www.linkedin.com/company/payrails/,DE,web (cited),"Primary Berlin, DE",https://www.linkedin.com/company/payrails/,DACH,
+Upvest,upvest.co,ashby,upvest,201-500,300,"Employees
+- 300",https://pitchbook.com/profiles/company/231578-47,DE,web (cited),"10405 Berlin
+- Germany",https://pitchbook.com/profiles/company/231578-47,DACH,
+Enpal,enpal.de,ashby,enpal,5001-10000,"7,195","Enpal had 7,195 employees as of March 2026, up 537 (+3.1%) from the prior year.",https://www.reveliolabs.com/companies/enpal/employees,DE,web (cited),"Bödikerstrasse 25
+- 10245 Berlin
+- Germany",https://pitchbook.com/profiles/company/267541-93,DACH,
+HeyJobs,heyjobs.co,ashby,heyjobs,201-500,306,"Employees
+- 306",https://pitchbook.com/profiles/company/169051-60,DE,web (cited),"Paul-Lincke-Ufer 39/40
+- 10999 Berlin
+- Germany",https://pitchbook.com/profiles/company/169051-60,DACH,
+Zenjob,zenjob.com,ashby,zenjob,201-500,220,"Employees
+- 220",https://pitchbook.com/profiles/company/167870-35,DE,web (cited),Germany,https://pitchbook.com/profiles/company/167870-35,DACH,
+Bitpanda,bitpanda.com,greenhouse,bitpanda,501-1000,900,"Employees
+- 900",https://pitchbook.com/profiles/company/267691-60,AT,web (cited),"Vienna, 1020
+- Austria",https://pitchbook.com/profiles/company/267691-60,DACH,
+GoStudent,gostudent.org,greenhouse,gostudent,1001-5000,"2,721","Employees
+- 2,721",https://pitchbook.com/profiles/company/179934-49,AT,unverified (my best guess; no cited source),,,DACH,
+Storyblok,storyblok.com,greenhouse,storyblok,201-500,280,"Employees
+- 280",https://pitchbook.com/profiles/company/228059-83,AT,web (cited),Austria,https://pitchbook.com/profiles/company/228059-83,DACH,

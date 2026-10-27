@@ -1,0 +1,19 @@
+{
+ "domain": "doctolib.fr",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2567,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 113,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 2, \"intent\": 1, \"reason\": \"Doctolib operates across France, Germany, Italy with field/inside sales teams and uses Salesforce, suggesting multi-country spend complexity; RevOps expansion is notable.\", \"key_quote\": \"Revenue Operations bündelt die kommerzielle Planung und Steuerung für alle Sales Motions, von Zielen und Kapazität über Pipeline und Performance bis zu Pricing und Packaging.\"}\n```"
+}

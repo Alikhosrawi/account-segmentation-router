@@ -1,0 +1,19 @@
+{
+ "domain": "gopigment.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2087,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 83,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 2, \"intent\": 1, \"reason\": \"700+ staff across Paris, London, New York, Toronto signals multi-country spend; no explicit finance team build-out or ERP migration found.\", \"key_quote\": \"With a team of 700+ across Paris, London, New York, Toronto, San Francisco and Austin\"}\n```"
+}

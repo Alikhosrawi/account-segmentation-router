@@ -1,0 +1,25 @@
+{
+ "domain": "celonis.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2a",
+ "posting_ids": [
+  "greenhouse:celonis:7925721003",
+  "greenhouse:celonis:8015242003",
+  "greenhouse:celonis:8039943003"
+ ],
+ "usage": {
+  "input_tokens": 2411,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 622,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"greenhouse:celonis:8015242003\",\n      \"evidence_quote\": \"Over the past year, we have built our Public Sector team from the ground up.\",\n      \"confidence\": 0.85\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"new_market\",\n      \"posting_id\": \"greenhouse:celonis:8015242003\",\n      \"evidence_quote\": \"Now we are taking the next big step in Germany: scaling our business with the public sector.\",\n      \"confidence\": 0.80\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2a\"\n}\n```\n\n**Reasoning:**\n\n**FIT (1):** \n- **finance_complexity:** Not explicitly stated. The postings describe Celonis's customers (DAX companies, police, Bundeswehr) but not Celonis's own internal structure, entities, or currencies.\n- **distributed_spend:** Not stated.\n- **finance_tooling:** Not stated. No mention of ERP, accounting, or spend tools Celonis uses internally.\n- Score: 0 signals → fit = 0\n\n**INTENT (1):**\n- **finance_hiring:** Not applicable. The roles are sales/value engineering positions, not finance, accounting, controlling, or procurement roles.\n- **gtm_scaleup:** SIGNAL FOUND. Posting 8015242003 explicitly states \"Over the past year, we have built our Public Sector team from the ground up\" and \"a strong go-to-market core team of Account Executives and Value Engineers is in place.\" This describes building a new GTM team function. The current hiring of specialized AEs complements this expansion.\n- **new_market:** SIGNAL FOUND. Posting 8015242003 states \"Now we are taking the next big step in Germany: scaling our business with the public sector\" — this is entering a named new market segment (public sector in Germany).\n- **tool_adoption:** Not stated.\n- Score: 2 different signal types → intent = 2\n\nHowever, the company (Celonis) is a B2B SaaS platform vendor, not an SMB/mid-market buyer of spend-management solutions. The postings describe Celonis selling to enterprises and public sector organizations, not Celonis buying spend-management tools. This is a **misaligned company** for the target buyer profile, but scoring is based only on explicit evidence in the postings."
+}

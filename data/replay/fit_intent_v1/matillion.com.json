@@ -1,0 +1,25 @@
+{
+ "domain": "matillion.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "lever:matillion:ecfd6652-cf44-4b6e-bba2-978d432d2e1e",
+  "lever:matillion:dd806806-af77-4c69-ba22-26a797f3e50f",
+  "lever:matillion:929da6fe-b99f-4438-b4f3-21628db51c2a"
+ ],
+ "usage": {
+  "input_tokens": 2190,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 340,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"lever:matillion:dd806806-af77-4c69-ba22-26a797f3e50f\",\n      \"evidence_quote\": \"teams across the UK, US and India\",\n      \"confidence\": 0.6\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"lever:matillion:dd806806-af77-4c69-ba22-26a797f3e50f\",\n      \"evidence_quote\": \"Leading engineering FinOps and cloud cost optimisation, working with your CloudOps analysts\",\n      \"confidence\": 0.5\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"lever:matillion:929da6fe-b99f-4438-b4f3-21628db51c2a\",\n      \"evidence_quote\": \"Leading FinOps initiatives; analysing cloud spend, managing Reserved Instances and Savings Plans\",\n      \"confidence\": 0.5\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

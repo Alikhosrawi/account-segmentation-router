@@ -1,0 +1,25 @@
+{
+ "domain": "gopigment.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2a",
+ "posting_ids": [
+  "lever:pigment:189231ae-80b9-419b-a61f-75b90e500aef",
+  "lever:pigment:3e985eb9-fb58-40e8-a1c8-c1c1f2a625ae",
+  "lever:pigment:6e871269-5b29-47ae-a1a4-2de8523af2de"
+ ],
+ "usage": {
+  "input_tokens": 2631,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 374,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v2a\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0):** \n- No explicit evidence of finance_complexity (multiple legal entities, currencies, cost centres, growing finance team at Pigment itself)\n- No explicit evidence of distributed_spend (field teams, multiple offices with spending, frequent travel)\n- No explicit evidence of finance_tooling (no named ERP, accounting, or spend-management tools that Pigment uses internally)\n\nThe postings describe Pigment's *own product* (business planning, EPM platform) and its *customers* (Unilever, Uber, etc.), not how Pigment itself operates financially. The mention of \"700+ across Paris, London, New York, Toronto, San Francisco and Austin\" describes geographic presence but does not explicitly signal finance complexity, distributed spend patterns, or internal finance tooling.\n\n**INTENT (0):**\n- No finance_hiring: The roles are Marketing Operations Manager and EPM Services Sales Lead—not finance, accounting, controlling, or procurement roles.\n- No gtm_scaleup: While Pigment is \"scaling rapidly,\" the postings do not state that the sales/revenue/RevOps *team or function itself* is new or being built/expanded. These are individual contributor and specialist roles, not team-building signals.\n- No new_market: No NAMED new country or region entry is mentioned.\n- No tool_adoption: No migration to or rollout of a NAMED finance or GTM tool is described."
+}

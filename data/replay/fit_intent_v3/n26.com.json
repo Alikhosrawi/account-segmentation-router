@@ -1,0 +1,25 @@
+{
+ "domain": "n26.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "greenhouse:n26:8167305",
+  "greenhouse:n26:8312214",
+  "greenhouse:n26:8281301"
+ ],
+ "usage": {
+  "input_tokens": 2707,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 318,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** N26 is a digital bank. All three postings describe roles within N26's own treasury, trading, and capital markets desk—these are part of the bank's core product and operations as a financial institution, not evidence of how N26 itself manages internal spend, expenses, or finance operations as a potential buyer of B2B spend-management software. Per the rules: \"A bank's or fintech's own treasury, trading, risk or capital-markets desk is part of its product, NOT finance_hiring or finance_complexity.\" No signals for finance_complexity, distributed_spend, or finance_tooling found.\n\n**INTENT (0/3):** \n- No finance_hiring: The roles are treasury trader and corporate finance roles within the bank's own treasury desk (product), not hiring for internal finance, accounting, controlling, or procurement functions.\n- No gtm_scaleup: No mention of building or expanding a sales/revenue/RevOps team.\n- No new_market: No NAMED new country or region entry mentioned.\n- No tool_adoption: No NAMED finance or GTM tool migration or rollout (SQL and Bloomberg are required skills, not adoption signals)."
+}

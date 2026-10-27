@@ -1,0 +1,25 @@
+{
+ "domain": "celonis.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "greenhouse:celonis:7925721003",
+  "greenhouse:celonis:8015242003",
+  "greenhouse:celonis:8039943003"
+ ],
+ "usage": {
+  "input_tokens": 2025,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 430,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"greenhouse:celonis:8015242003\",\n      \"evidence_quote\": \"Celonis is investing heavily through 2029 in its German public sector business. Over the past year, we have built our Public Sector team from the ground up.\",\n      \"confidence\": 0.8\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0):** Celonis is a B2B SaaS platform selling process intelligence and AI solutions to enterprises. The postings describe their customers (Deutsche Telekom, Mercedes-Benz, DAX companies, police, defense) but provide no explicit signals that Celonis itself has the finance complexity or distributed spend characteristics that would make them a buyer of spend-management products. The postings are about Celonis selling to others, not about Celonis's own finance operations.\n\n**INTENT (1):** One clear signal:\n- **gtm_scaleup**: The postings explicitly state Celonis is \"investing heavily through 2029 in its German public sector business\" and has \"built our Public Sector team from the ground up\" with plans to expand with specialized Account Executives. This indicates active GTM expansion in a new market segment (public sector). However, this is expansion of *their* sales team, not adoption of a spend-management tool, so it's a modest signal for a spend-management vendor.\n\nNo finance_hiring, tool_adoption, or new_market entry signals are present. The postings do not mention Celonis building/expanding finance, accounting, or procurement teams, nor do they reference adoption of finance tools."
+}

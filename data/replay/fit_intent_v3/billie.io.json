@@ -1,0 +1,24 @@
+{
+ "domain": "billie.io",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:billie:02abea78-d78f-4a3f-b1d2-ce38f8714cb8",
+  "ashby:billie:fcc221b2-5ff3-47e0-a666-48b539b5543b"
+ ],
+ "usage": {
+  "input_tokens": 2227,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 331,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):**\n- **finance_complexity**: No evidence. The postings describe Billie's own BNPL product and services to B2B customers, not Billie's internal finance structure, legal entities, currencies, cost centres, or finance team growth.\n- **distributed_spend**: No evidence. No mention of Billie's own employees spending company money, field teams, multiple offices, or travel.\n- **finance_tooling**: Salesforce is mentioned, but only as a \"big plus\" skill requirement for the sales role—this is a required experience listing, not evidence that Billie is adopting or migrating to Salesforce internally.\n\n**INTENT (0/3):**\n- **finance_hiring**: The Compliance Expert role is compliance/regulatory, not finance, accounting, controlling, or procurement. It does not qualify as finance_hiring.\n- **gtm_scaleup**: The Working Student Sales role is a junior individual contributor backfill/support role, not evidence that the sales team or function itself is being built or expanded as a new initiative.\n- **new_market**: No named new country or region entry mentioned.\n- **tool_adoption**: No named finance or GTM tool migration or rollout stated."
+}

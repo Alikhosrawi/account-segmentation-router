@@ -1,0 +1,25 @@
+{
+ "domain": "zenjob.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2a",
+ "posting_ids": [
+  "ashby:zenjob:244cb88a-6cef-4729-a12f-a104642ff3ec",
+  "ashby:zenjob:c7b9e785-792f-4fd0-a8f1-af3f53688502",
+  "ashby:zenjob:cea79f7b-5573-40e1-a40a-b414cbfa54b3"
+ ],
+ "usage": {
+  "input_tokens": 3374,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 364,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v2a\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):**\n- **finance_complexity**: No evidence of multiple legal entities, currencies, countries, cost centres, or a growing finance/controlling team. Zenjob is described as operating in German cities.\n- **distributed_spend**: No evidence of many employees spending company money, field teams, multiple offices with spend, or frequent travel/events.\n- **finance_tooling**: The postings mention operational tools (AirCall, Google Suite, Slack, Okta, Kandji, Freshservice) but none are finance/accounting/ERP tools. These are not spend-management relevant.\n\n**INTENT (0/3):**\n- **finance_hiring**: None of the three postings are hiring for finance, accounting, controlling, or procurement roles. The roles are Account Manager (sales), Staffing Operations (operations), and IT Support (IT).\n- **gtm_scaleup**: The Account Manager role is a normal sales position, not evidence of building or expanding a sales/revenue/RevOps team as a function.\n- **new_market**: No mention of entering a named new country or region.\n- **tool_adoption**: No mention of migrating to or rolling out a named finance or GTM tool.\n\nZenjob is a staffing platform company describing its own product and operations roles, not a buyer showing signals of needing B2B spend-management solutions."
+}

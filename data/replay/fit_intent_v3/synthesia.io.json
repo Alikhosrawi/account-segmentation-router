@@ -1,0 +1,25 @@
+{
+ "domain": "synthesia.io",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:synthesia:ce402b96-d2c2-4651-bb20-2b8cf6166acc",
+  "ashby:synthesia:8d8233ca-15c4-4feb-99f6-46c5c48db52c",
+  "ashby:synthesia:9126e40f-ff2c-4cf7-b696-67c3787983cc"
+ ],
+ "usage": {
+  "input_tokens": 2871,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 347,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** \n- No finance_complexity: The postings mention \"offices and teams across Europe and the US\" but this is boilerplate location listing, not evidence of multiple legal entities, currencies, cost centres, or a growing finance team.\n- No distributed_spend: No mention of field teams, multiple offices with spending, travel, or events requiring spend management.\n- No finance_tooling: No ERP, accounting, or spend-management tools are named.\n\n**INTENT (0/3):**\n- No finance_hiring: All three postings are for People/HR, Product Marketing, and Developer Marketing roles—none are finance, accounting, controlling, procurement, or payroll roles.\n- No gtm_scaleup: While posting 2 mentions \"You'll lead a team of five PMMs, hire into it,\" this is a product marketing team expansion, not a sales/revenue/RevOps team being built or expanded.\n- No new_market: No NAMED new country or region entry is mentioned.\n- No tool_adoption: No migration to or rollout of a NAMED finance or GTM tool is described.\n\nThe postings describe Synthesia's own product (AI video platform) and hiring for non-finance functions. No internal finance operations, spend complexity, or finance-related hiring is evident."
+}

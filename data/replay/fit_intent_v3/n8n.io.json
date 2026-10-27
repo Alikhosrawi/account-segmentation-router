@@ -1,0 +1,25 @@
+{
+ "domain": "n8n.io",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:n8n:12d3b685-95b1-4152-b611-c82cd581e8fb",
+  "ashby:n8n:d7efe3a6-bea9-4b3b-b8ee-3e91bfd5cef7",
+  "ashby:n8n:01e97911-afbc-4d4b-bdc7-ea6cd5e51662"
+ ],
+ "usage": {
+  "input_tokens": 3031,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 260,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_tooling\",\n      \"posting_id\": \"ashby:n8n:12d3b685-95b1-4152-b611-c82cd581e8fb\",\n      \"evidence_quote\": \"Manage the end-to-end P2P process in Ramp, from invoice intake and coding\",\n      \"confidence\": 0.95\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:n8n:12d3b685-95b1-4152-b611-c82cd581e8fb\",\n      \"evidence_quote\": \"help build a lean, AI-native accounting function at n8n, owning core accounting operations\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```"
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "pipedrive.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2",
+ "posting_ids": [
+  "lever:pipedrive:a6488b4b-c09b-4daa-b7d5-2270335dac35",
+  "lever:pipedrive:04a0b763-5d9e-4ff4-9ee0-dc6fbc29a2d8",
+  "lever:pipedrive:54fb52bb-95f1-49a4-b3c0-68b42f2d69ce"
+ ],
+ "usage": {
+  "input_tokens": 2347,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 311,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v2\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** \n- No finance_complexity signals: postings do not mention multiple legal entities, currencies, countries, cost centres, or a growing finance/controlling team.\n- No distributed_spend signals: postings are for AI/ML and Security engineering roles, not indicative of distributed employee spending patterns.\n- No finance_tooling signals: no ERP, accounting, or spend-management tools are named.\n\n**INTENT (0/3):**\n- No finance_hiring signals: both roles are engineering positions (AI/ML Scientist, Security Engineer), not finance, accounting, controlling, or procurement roles.\n- No gtm_scaleup signals: no sales, revenue, or RevOps team expansion mentioned.\n- No new_market signals: no NAMED new country or region entry is described.\n- No tool_adoption signals: no migration to or rollout of a NAMED finance or GTM tool is mentioned.\n\nPipedrive is a CRM/sales software vendor, not a buyer of B2B spend-management solutions. The postings describe internal engineering hiring, not signals of financial complexity or spend management needs that would make them a prospect."
+}

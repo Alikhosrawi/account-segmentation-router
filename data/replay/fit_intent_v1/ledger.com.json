@@ -1,0 +1,25 @@
+{
+ "domain": "ledger.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:ledger:8f044bee-dc2b-4104-9ef1-f69077be4891",
+  "ashby:ledger:26c4797f-d0b7-4ad4-9bef-0f42f0d1cec2",
+  "ashby:ledger:442c6f18-8b85-47eb-b1a0-5d7f8ffd6eda"
+ ],
+ "usage": {
+  "input_tokens": 2315,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 413,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:ledger:442c6f18-8b85-47eb-b1a0-5d7f8ffd6eda\",\n      \"evidence_quote\": \"Your development goes in two directions: continuous improvement of how People Ops works, and a progressive move into Global Payroll (US, UK, Singapore)\",\n      \"confidence\": 0.6\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:ledger:442c6f18-8b85-47eb-b1a0-5d7f8ffd6eda\",\n      \"evidence_quote\": \"offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals\",\n      \"confidence\": 0.5\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:ledger:442c6f18-8b85-47eb-b1a0-5d7f8ffd6eda\",\n      \"evidence_quote\": \"You're joining as we reshape the People & Operations Experience team, which brings together ops, payroll, people tech, engagement and internal comms\",\n      \"confidence\": 0.7\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

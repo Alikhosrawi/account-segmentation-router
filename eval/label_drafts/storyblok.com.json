@@ -1,0 +1,19 @@
+{
+ "domain": "storyblok.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2030,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 71,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 1, \"intent\": 1, \"reason\": \"Remote-first SaaS with international team and multi-country hiring hints at some spend complexity, but no finance team, ERP, or multi-entity signals visible.\", \"key_quote\": \"Canada, Spain, India\"}\n```"
+}

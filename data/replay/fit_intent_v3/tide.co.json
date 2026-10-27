@@ -1,0 +1,25 @@
+{
+ "domain": "tide.co",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "greenhouse:tide:8033088003",
+  "greenhouse:tide:8036635003",
+  "greenhouse:tide:7781321003"
+ ],
+ "usage": {
+  "input_tokens": 2719,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 296,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 2,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"greenhouse:tide:8033088003\",\n      \"evidence_quote\": \"Tide is available for UK, Indian, German and French SMEs\",\n      \"confidence\": 0.95\n    },\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_tooling\",\n      \"posting_id\": \"greenhouse:tide:8033088003\",\n      \"evidence_quote\": \"Lead the end-to-end accounting cycle and financial close under Lux GAAP and UK GAAP\",\n      \"confidence\": 0.65\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"greenhouse:tide:8033088003\",\n      \"evidence_quote\": \"The Senior Financial Controller will support the EU Head of Finance in building and managing Tide Platform SA's core finance function\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```"
+}

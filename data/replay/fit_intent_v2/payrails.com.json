@@ -1,0 +1,24 @@
+{
+ "domain": "payrails.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2",
+ "posting_ids": [
+  "ashby:payrails:7a5bb459-dc27-4174-bc11-c173fd3ec91f",
+  "ashby:payrails:248cf96d-7267-425d-b4f3-5953f0a4c755"
+ ],
+ "usage": {
+  "input_tokens": 1842,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 305,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v2\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** Payrails is a B2B payment software company selling to enterprises, not an SMB/mid-market buyer of spend-management products. The postings describe Payrails' own product and vision, not characteristics that would make them a customer for company cards, expenses, or invoice management tools.\n\n- No finance_complexity signals: No mention of multiple legal entities, currencies, countries, cost centres, or growing finance teams *as a buyer*.\n- No distributed_spend signals: No mention of employees spending company money across locations or travel.\n- No finance_tooling signals: No tools named that Payrails uses for spend management.\n\n**INTENT (0/3):** The postings are hiring for analytics and data engineering roles—technical positions, not finance/accounting/procurement roles.\n\n- No finance_hiring: These are data/analytics engineering roles, not finance, accounting, controlling, or procurement positions.\n- No gtm_scaleup, new_market, or tool_adoption signals: The postings contain only mission statements, company vision, culture values, and funding information—all explicitly excluded as \"not signals.\""
+}

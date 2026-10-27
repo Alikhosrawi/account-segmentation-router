@@ -1,0 +1,23 @@
+{
+ "domain": "heyjobs.co",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2a",
+ "posting_ids": [
+  "ashby:heyjobs:361ed70e-477b-4fd5-ba3a-cf9dc5484e8d"
+ ],
+ "usage": {
+  "input_tokens": 1813,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 304,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v2a\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** The posting describes HeyJobs' own product (AI-based recruiting platform for job matching) and its customers (4,700 companies). These are facts about what HeyJobs sells, not how HeyJobs itself operates internally. No explicit signals about:\n- Finance complexity (multiple entities, currencies, cost centres, growing finance team)\n- Distributed spend (employees spending company money, field teams, travel)\n- Finance tooling (no ERP, accounting, or spend-management tools named)\n\n**INTENT (0/3):** This is a sales manager backfill/normal sales role. No signals for:\n- Finance hiring (this is a sales role, not finance/accounting/controlling/procurement)\n- GTM scaleup (no text stating the sales team or function itself is new or being built/expanded; this is a single sales manager role)\n- New market entry (no NAMED new country/region mentioned)\n- Tool adoption (no NAMED finance or GTM tool migration stated)\n\nThe posting contains only generic growth language and mission statements, which are explicitly excluded as non-signals."
+}

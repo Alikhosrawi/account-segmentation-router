@@ -1,0 +1,25 @@
+{
+ "domain": "causal.app",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:causal:12ad7c04-13ba-4c39-8dd3-41642156951d",
+  "ashby:causal:4e621c74-66c3-43a7-9720-be794095fc5f",
+  "ashby:causal:84df5ed7-325a-4e75-bd20-db6e2f4f7e07"
+ ],
+ "usage": {
+  "input_tokens": 2704,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 348,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):** \n- No evidence of finance_complexity: The postings mention \"San Francisco / Singapore\" as locations but provide no information about the company's internal legal entities, currencies, cost centres, or finance team structure.\n- No evidence of distributed_spend: The postings describe customer-facing roles (recruiting, deployment strategy, research) and do not describe internal employee spending patterns, field teams, or travel reimbursement needs.\n- No evidence of finance_tooling: No ERP, accounting, or spend-management tools are mentioned.\n\n**INTENT (0/3):**\n- No finance_hiring: The three roles are for recruiting staff, deployment strategy, and research/operations—none are finance, accounting, controlling, procurement, or payroll positions.\n- No gtm_scaleup: While the recruiting role supports hiring broadly, there is no explicit statement that the sales/revenue/RevOps team itself is new or being expanded as a function.\n- No new_market: No NAMED new country or region entry is mentioned.\n- No tool_adoption: No migration to or rollout of a NAMED finance or GTM tool is described.\n\nThe postings describe Causal's product mission and customer-facing hiring needs, not the company's internal finance operations or organizational structure relevant to B2B spend-management buyers."
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "truelayer.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:truelayer:8145aae1-bbae-414d-865c-8ab5b588f398",
+  "ashby:truelayer:b68aa6ea-def9-47a8-9fc9-ad60fe3d87cd",
+  "ashby:truelayer:07666a69-21b1-4d8a-8174-6de2e9f12b9a"
+ ],
+ "usage": {
+  "input_tokens": 2920,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 274,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:truelayer:b68aa6ea-def9-47a8-9fc9-ad60fe3d87cd\",\n      \"evidence_quote\": \"financial reporting, and safeguarding (including PCF-56 responsibility) of customer funds for TrueLayer (Ireland) Limited (TIL)\",\n      \"confidence\": 0.75\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"ashby:truelayer:8145aae1-bbae-414d-865c-8ab5b588f398\",\n      \"evidence_quote\": \"Review and approve employee expense claims and travel requests that are in line with the TrueLayer Business Travel & Expense Policy\",\n      \"confidence\": 0.8\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```"
+}

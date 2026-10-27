@@ -1,0 +1,25 @@
+{
+ "domain": "contentful.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "greenhouse:contentful:8301092",
+  "greenhouse:contentful:8301112",
+  "greenhouse:contentful:8284859"
+ ],
+ "usage": {
+  "input_tokens": 2611,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 258,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0):** The postings describe Contentful's sales roles and what Contentful sells (a technical platform for digital experience). They do not contain explicit evidence about Contentful's own internal operations:\n- No mention of Contentful's own legal entities, currencies, or cost centres (finance_complexity).\n- No description of Contentful's own employees spending company money or distributed spend patterns (distributed_spend).\n- No mention of finance/accounting/ERP tools Contentful uses internally (finance_tooling).\n\n**INTENT (0):** \n- No finance, accounting, controlling, or procurement hiring (finance_hiring).\n- These are backfill/normal sales roles, not evidence that the sales/revenue team itself is being built or expanded as a new function (gtm_scaleup).\n- No named new market entry (new_market).\n- No tool adoption or migration mentioned (tool_adoption)."
+}

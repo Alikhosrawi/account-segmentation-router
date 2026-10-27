@@ -1,0 +1,25 @@
+{
+ "domain": "qonto.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:qonto:43058e44-cfe8-47de-b926-1af11d9e477a",
+  "ashby:qonto:057ef4dc-37f8-489c-84ff-3f8cd2657f18",
+  "ashby:qonto:7503f1f7-10be-4601-9dee-327082b04cc0"
+ ],
+ "usage": {
+  "input_tokens": 2740,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 450,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 2,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_tooling\",\n      \"posting_id\": \"ashby:qonto:057ef4dc-37f8-489c-84ff-3f8cd2657f18\",\n      \"evidence_quote\": \"delivering Europe's leading finance workspace with banking at its core, augmented by financial tools\",\n      \"confidence\": 0.5\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:qonto:057ef4dc-37f8-489c-84ff-3f8cd2657f18\",\n      \"evidence_quote\": \"Account Executive Accounting - France\",\n      \"confidence\": 0.7\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:qonto:7503f1f7-10be-4601-9dee-327082b04cc0\",\n      \"evidence_quote\": \"Join us as a Sales Development Representative intern in our new Qonto Comptabilité Sales team\",\n      \"confidence\": 0.8\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"new_market\",\n      \"posting_id\": \"ashby:qonto:43058e44-cfe8-47de-b926-1af11d9e477a\",\n      \"evidence_quote\": \"Join us as a KYC/KYB Specialist to help scale Qonto's Spanish market\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "storyblok.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "greenhouse:storyblok:4987716101",
+  "greenhouse:storyblok:4998396101",
+  "greenhouse:storyblok:4995084101"
+ ],
+ "usage": {
+  "input_tokens": 2188,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 147,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"greenhouse:storyblok:4995084101\",\n      \"evidence_quote\": \"As an Account Executive, you'll be on the front line of Storyblok's US expansion — owning your territory end to end\",\n      \"confidence\": 0.8\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

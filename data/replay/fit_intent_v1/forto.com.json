@@ -1,0 +1,25 @@
+{
+ "domain": "forto.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:forto:8847554b-267e-4c22-881e-fe0638b02ad3",
+  "ashby:forto:51cf13d6-98f8-450c-a1a7-1083b15b3e00",
+  "ashby:forto:9daa12be-1543-468a-83f7-d3876cb52971"
+ ],
+ "usage": {
+  "input_tokens": 2196,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 172,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:forto:51cf13d6-98f8-450c-a1a7-1083b15b3e00\",\n      \"evidence_quote\": \"As a Sales Development Representative (f/m/d), your job is to open doors with high-potential customers, and book qualified meetings for our Sales Managers.\",\n      \"confidence\": 0.6\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

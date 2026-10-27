@@ -1,0 +1,9 @@
+{
+ "note": "Deterministic post-freeze rule (disclosed in PREREGISTRATION.md). Pleo's direct competitors and Pleo itself are never prospects. Matched by normalised domain.",
+ "competitors": [
+  {"name": "Pleo", "domain": "pleo.io"},
+  {"name": "Moss", "domain": "getmoss.com"},
+  {"name": "Perk", "domain": "perk.com"},
+  {"name": "Qonto", "domain": "qonto.com"}
+ ]
+}

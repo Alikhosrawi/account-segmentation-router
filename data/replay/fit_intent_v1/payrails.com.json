@@ -1,0 +1,24 @@
+{
+ "domain": "payrails.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:payrails:7a5bb459-dc27-4174-bc11-c173fd3ec91f",
+  "ashby:payrails:248cf96d-7267-425d-b4f3-5953f0a4c755"
+ ],
+ "usage": {
+  "input_tokens": 1623,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 204,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0):** Payrails is a B2B payment software company selling to enterprises, not an SMB/mid-market buyer of spend-management products. The postings describe Payrails as a vendor (\"helping leading enterprises to take control of their payment operations\"), not a potential customer. No signals of finance complexity, distributed spend, or finance tooling adoption within Payrails itself are explicitly mentioned.\n\n**INTENT (0):** Neither posting contains explicit signals of finance hiring expansion, GTM scaling, new market entry, or named tool adoption. The roles are for analytics/data engineering (product/platform functions), not finance team building. No named tools or specific expansion initiatives are mentioned."
+}

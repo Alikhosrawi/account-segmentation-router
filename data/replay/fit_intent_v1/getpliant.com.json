@@ -1,0 +1,25 @@
+{
+ "domain": "getpliant.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:pliant:72fd60b1-b748-4e20-9f03-1829308efcf7",
+  "ashby:pliant:1da1746e-fec7-4c2c-b301-a018cbdecb96",
+  "ashby:pliant:feda8420-4ebc-4ea7-9ae2-73d2ef1c51a7"
+ ],
+ "usage": {
+  "input_tokens": 2371,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 441,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 2,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"ashby:pliant:72fd60b1-b748-4e20-9f03-1829308efcf7\",\n      \"evidence_quote\": \"issues commercial cards in 13 currencies across 32 countries\",\n      \"confidence\": 0.6\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:pliant:1da1746e-fec7-4c2c-b301-a018cbdecb96\",\n      \"evidence_quote\": \"accelerate our expansion in one of Pliant's most strategic verticals: travel\",\n      \"confidence\": 0.8\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:pliant:feda8420-4ebc-4ea7-9ae2-73d2ef1c51a7\",\n      \"evidence_quote\": \"build up our commercial unit there\",\n      \"confidence\": 0.8\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"new_market\",\n      \"posting_id\": \"ashby:pliant:feda8420-4ebc-4ea7-9ae2-73d2ef1c51a7\",\n      \"evidence_quote\": \"support our UK and Ireland Sales team at Pliant\",\n      \"confidence\": 0.7\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

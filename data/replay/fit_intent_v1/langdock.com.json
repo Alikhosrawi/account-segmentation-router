@@ -1,0 +1,25 @@
+{
+ "domain": "langdock.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "ashby:langdock:f572fdf3-3b46-4f78-876f-9767a6f97538",
+  "ashby:langdock:e27922a1-5484-410e-ada9-1d4f744b4ad6",
+  "ashby:langdock:944946c0-b6a3-4506-a4b7-3ce8c8778ea3"
+ ],
+ "usage": {
+  "input_tokens": 2263,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 151,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:langdock:f572fdf3-3b46-4f78-876f-9767a6f97538\",\n      \"evidence_quote\": \"This role is pivotal in driving our expansion across diverse customer segments\",\n      \"confidence\": 0.6\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

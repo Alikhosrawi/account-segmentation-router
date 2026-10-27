@@ -1,0 +1,25 @@
+{
+ "domain": "getmoss.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "ashby:moss:970fce34-4483-4f76-a8f1-145a9efb9584",
+  "ashby:moss:ad170016-309a-43c1-b251-1b28345339d2",
+  "ashby:moss:e247e582-d3c4-4cce-af0b-200c9276a062"
+ ],
+ "usage": {
+  "input_tokens": 2887,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 276,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"distributed_spend\",\n      \"posting_id\": \"ashby:moss:970fce34-4483-4f76-a8f1-145a9efb9584\",\n      \"evidence_quote\": \"Own full-cycle hiring for your vertical end to end, from sourcing through offer, across Germany, the UK and the Netherlands.\",\n      \"confidence\": 0.7\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"ashby:moss:970fce34-4483-4f76-a8f1-145a9efb9584\",\n      \"evidence_quote\": \"You will play a pivotal role in helping Moss attract and hire the right talent for our our teams across Europe, mostly across our Commercial, and Marketing departments.\",\n      \"confidence\": 0.65\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```"
+}

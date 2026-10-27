@@ -1,0 +1,19 @@
+{
+ "domain": "deepl.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2171,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 81,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 2, \"intent\": 1, \"reason\": \"~1,000 employees, 228 global markets, European offices including Vienna and London suggest multi-entity spend complexity; revenue finance team is small.\", \"key_quote\": \"over 200,000 business customers and millions of individuals across 228 global markets\"}\n```"
+}

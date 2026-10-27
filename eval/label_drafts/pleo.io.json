@@ -1,0 +1,19 @@
+{
+ "domain": "pleo.io",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2175,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 81,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 0, \"intent\": 0, \"reason\": \"Pleo is itself a spend-management vendor, not a prospect; these postings describe their own product and sales hiring.\", \"key_quote\": \"We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance teams and employees alike\"}\n```"
+}

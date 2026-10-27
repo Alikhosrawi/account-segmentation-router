@@ -1,0 +1,19 @@
+{
+ "domain": "langdock.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2105,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 89,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 1, \"intent\": 0, \"reason\": \"Langdock is an AI software vendor in Berlin with no visible finance team, multi-entity structure, or employee spending signals relevant to spend management.\", \"key_quote\": \"Over 10,000 companies use our platform every day, from fast-growing startups to some of Europe's largest enterprises.\"}\n```"
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "gostudent.org",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v2",
+ "posting_ids": [
+  "greenhouse:gostudent:5009687101",
+  "greenhouse:gostudent:5010010101",
+  "greenhouse:gostudent:5000435101"
+ ],
+ "usage": {
+  "input_tokens": 2599,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 208,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"finance_complexity\",\n      \"posting_id\": \"greenhouse:gostudent:5009687101\",\n      \"evidence_quote\": \"across multiple legal entities. You are the go-to person for employees\",\n      \"confidence\": 0.9\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"greenhouse:gostudent:5009687101\",\n      \"evidence_quote\": \"Own the monthly DACH payroll inputs: prepare and validate the variables\",\n      \"confidence\": 0.85\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v2\"\n}\n```"
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "bitpanda.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v1",
+ "posting_ids": [
+  "greenhouse:bitpanda:5009826101",
+  "greenhouse:bitpanda:5011135101",
+  "greenhouse:bitpanda:5012693101"
+ ],
+ "usage": {
+  "input_tokens": 2216,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 209,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 1,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"fit\",\n      \"signal_type\": \"distributed_spend\",\n      \"posting_id\": \"greenhouse:bitpanda:5011135101\",\n      \"evidence_quote\": \"operating across Europe, our products are built by fast-moving, talented people\",\n      \"confidence\": 0.4\n    },\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"finance_hiring\",\n      \"posting_id\": \"greenhouse:bitpanda:5011135101\",\n      \"evidence_quote\": \"Specialist, Procurement. optimize third-party spend, establish scalable procurement governance\",\n      \"confidence\": 0.6\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v1\"\n}\n```"
+}

@@ -1,0 +1,25 @@
+{
+ "domain": "brevo.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "lever:brevo:d8d0a933-d267-4d3d-a8c2-165a03cb1a54",
+  "lever:brevo:e59fb60e-52be-4311-894a-86329c1b40d6",
+  "lever:brevo:f43e76f4-b929-48c3-92c9-a20388022df4"
+ ],
+ "usage": {
+  "input_tokens": 2751,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 175,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 1,\n  \"signals\": [\n    {\n      \"kind\": \"intent\",\n      \"signal_type\": \"gtm_scaleup\",\n      \"posting_id\": \"lever:brevo:d8d0a933-d267-4d3d-a8c2-165a03cb1a54\",\n      \"evidence_quote\": \"Manage and develop a regional marketer (1 direct report), setting clear objectives and fostering a high-performance culture, with scope to grow the team as North America scales\",\n      \"confidence\": 0.75\n    }\n  ],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```"
+}

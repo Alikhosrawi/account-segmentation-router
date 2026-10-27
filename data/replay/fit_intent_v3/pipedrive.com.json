@@ -1,0 +1,25 @@
+{
+ "domain": "pipedrive.com",
+ "model": "claude-haiku-4-5",
+ "temperature": 0,
+ "prompt_version": "fit_intent_v3",
+ "posting_ids": [
+  "lever:pipedrive:a6488b4b-c09b-4daa-b7d5-2270335dac35",
+  "lever:pipedrive:04a0b763-5d9e-4ff4-9ee0-dc6fbc29a2d8",
+  "lever:pipedrive:54fb52bb-95f1-49a4-b3c0-68b42f2d69ce"
+ ],
+ "usage": {
+  "input_tokens": 2710,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 326,
+  "service_tier": "standard",
+  "inference_geo": "not_available",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\n  \"fit\": 0,\n  \"intent\": 0,\n  \"signals\": [],\n  \"prompt_version\": \"fit_intent_v3\"\n}\n```\n\n**Reasoning:**\n\n**FIT (0/3):**\n- **finance_complexity**: The postings mention \"ten offices distributed across Europe and the US\" and \"used in 179 countries,\" but these are boilerplate location/customer lists, not evidence of the company's own operational complexity (multiple legal entities, cost centres, growing finance team).\n- **distributed_spend**: No evidence of employees spending company money, field teams, travel, or events.\n- **finance_tooling**: No finance, accounting, ERP, or spend-management tools mentioned.\n\n**INTENT (0/3):**\n- **finance_hiring**: All three postings are for Principal AI/ML and Security Engineering roles—product/platform engineering, not finance, accounting, controlling, procurement, or payroll.\n- **gtm_scaleup**: No mention of building or expanding a sales, revenue, or RevOps team.\n- **new_market**: No named new country or region entry.\n- **tool_adoption**: No migration to or rollout of a named finance or GTM tool.\n\nPipedrive is a SaaS sales/CRM vendor hiring for product engineering. The postings describe the company's own product and customers, not its internal finance operations or spending patterns."
+}

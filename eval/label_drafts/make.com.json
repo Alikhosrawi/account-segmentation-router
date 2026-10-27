@@ -1,0 +1,19 @@
+{
+ "domain": "make.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 1967,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 95,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 1, \"intent\": 0, \"reason\": \"Multi-country European presence (Prague, Madrid, Munich, UK, France) suggests some fit, but no finance team, ERP tools, or spending signals mentioned.\", \"key_quote\": \"hubs in Madrid, Munich, Raleigh, and Pristina, and teams across the UK, France, India, and the Netherlands\"}\n```"
+}

@@ -1,0 +1,19 @@
+{
+ "domain": "getmoss.com",
+ "model": "claude-sonnet-4-6",
+ "temperature": 0,
+ "usage": {
+  "input_tokens": 2147,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 79,
+  "service_tier": "standard",
+  "inference_geo": "global",
+  "speed": "standard"
+ },
+ "reply": "```json\n{\"fit\": 0, \"intent\": 0, \"reason\": \"Moss is itself a spend-management product; these postings describe the vendor, not a buyer prospect.\", \"key_quote\": \"At Moss, we give finance professionals the power to automate their day-to-day and make forward-thinking decisions.\"}\n```"
+}
